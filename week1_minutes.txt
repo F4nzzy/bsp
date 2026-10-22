@@ -1,0 +1,12 @@
+1. Progress since last meeting
+    • Read the assigned papers.
+    • Explored OSINT feeds from MISP
+
+2. Discussion
+    • Create a pipeline that takes a feed, passes it to an LLM and classifies it.
+    
+3. What to do for next meeting
+    • Read the assigned paper
+    • Build the pipeline 
+    • Process the feed and transform it into a feed that the LLM can use 
+    • Classify the events using an LLM into the Global Industry Classification Standard (GICS) categories
