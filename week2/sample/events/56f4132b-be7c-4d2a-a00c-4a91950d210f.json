@@ -1,0 +1,121 @@
+{
+  "Event": {
+    "analysis": "2",
+    "date": "2016-03-24",
+    "extends_uuid": "",
+    "info": "OSINT - Petya Ransomware",
+    "publish_timestamp": "1458836745",
+    "published": true,
+    "threat_level_id": "3",
+    "timestamp": "1458836702",
+    "uuid": "56f4132b-be7c-4d2a-a00c-4a91950d210f",
+    "Orgc": {
+      "name": "CIRCL",
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:white",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#004646",
+        "local": false,
+        "name": "type:OSINT",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload installation",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1458836306",
+        "to_ids": true,
+        "type": "sha256",
+        "uuid": "56f41352-1d78-4e31-a12e-420b950d210f",
+        "value": "26b4699a7b9eeb16e76305d843d4ab05e94d43f3201436927e13b3ebafa90739"
+      },
+      {
+        "category": "Payload installation",
+        "comment": "- Xchecked via VT: 26b4699a7b9eeb16e76305d843d4ab05e94d43f3201436927e13b3ebafa90739",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1458836386",
+        "to_ids": true,
+        "type": "sha1",
+        "uuid": "56f413a2-cc74-4608-aa1f-45a602de0b81",
+        "value": "39b6d40906c7f7f080e6befa93324dddadcbd9fa"
+      },
+      {
+        "category": "Payload installation",
+        "comment": "- Xchecked via VT: 26b4699a7b9eeb16e76305d843d4ab05e94d43f3201436927e13b3ebafa90739",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1458836387",
+        "to_ids": true,
+        "type": "md5",
+        "uuid": "56f413a3-f998-458a-8d49-441c02de0b81",
+        "value": "af2379cc4d607a45ac44d62135fb7015"
+      },
+      {
+        "category": "External analysis",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1458836387",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "56f413a3-e350-4585-839b-433102de0b81",
+        "value": "https://www.virustotal.com/file/26b4699a7b9eeb16e76305d843d4ab05e94d43f3201436927e13b3ebafa90739/analysis/1458834483/"
+      },
+      {
+        "category": "External analysis",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1458836513",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "56f41421-dec8-44b2-bbc8-4bfc950d210f",
+        "value": "http://www.heise.de/security/meldung/Erpressungs-Trojaner-Petya-riegelt-den-gesamten-Rechner-ab-3150917.html"
+      },
+      {
+        "category": "External analysis",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1458836609",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "56f41481-6fb8-4321-9e59-40e2950d210f",
+        "value": "https://www.gdata.fr/espace-presse/communiques/article/petya-le-nouveau-ransomware-qui-chiffre-lensemble-du-disque"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1458836623",
+        "to_ids": true,
+        "type": "sha256",
+        "uuid": "56f4148f-04f0-4e8b-a768-40b0950d210f",
+        "value": "26b4699a7b9eeb16e76305d843d4ab05e94d43f3201436927e13b3ebafa90739"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1458836678",
+        "to_ids": true,
+        "type": "sha256",
+        "uuid": "56f414c6-368c-438e-876c-fc0a950d210f",
+        "value": "b041d9573ae083a02cf52fcd23648b32ad9a8811bd7ea12ca6af3d91ca14a07a"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1407 @@
+{
+  "Event": {
+    "analysis": "0",
+    "date": "2023-12-22",
+    "extends_uuid": "",
+    "info": "OSINT -  BattleRoyal, DarkGate Cluster Spreads via Email and Fake Browser Updates",
+    "publish_timestamp": "1703240751",
+    "published": true,
+    "threat_level_id": "2",
+    "timestamp": "1703240722",
+    "uuid": "f0ef984c-2467-40aa-83c6-7c671a6379cb",
+    "Orgc": {
+      "name": "CIRCL",
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "local": false,
+        "name": "type:OSINT",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0071c3",
+        "local": false,
+        "name": "osint:lifetime=\"perpetual\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:white",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload installation",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1703240501",
+        "to_ids": false,
+        "type": "vulnerability",
+        "uuid": "b67555fd-db13-477a-8172-a62cbbbcea98",
+        "value": "CVE-2023-36025"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1703240673",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "155f35d6-0bd4-477d-94f9-4a701e4acce3",
+        "value": "5.181.159.29"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1703240673",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "f28a43c4-c271-4ade-b0d0-cb8af308528e",
+        "value": "79.110.62.96"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1703240690",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "b23f7cd3-8bd4-46e7-ae8c-f6843b6cc91e",
+        "value": "heilee.com"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1703240690",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "31c67ded-1d5d-4cf1-b0fa-5806a61840bd",
+        "value": "kairoscounselingmi.com"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1703240690",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "21ef8e83-3971-46f6-9a6c-ea1192b3d783",
+        "value": "nathumvida.org"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1703240690",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "03a083ae-ee66-41a7-965d-370c4eeb1bd1",
+        "value": "searcherbigdealk.com"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1703240690",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "e33bb2c5-c8fa-47af-ab3a-ca5c49f85af8",
+        "value": "zxcdota2huysasi.com"
+      }
+    ],
+    "Object": [
+      {
+        "comment": "",
+        "deleted": false,
+        "description": "Report object to describe a report along with its metadata.",
+        "meta-category": "misc",
+        "name": "report",
+        "template_uuid": "70a68471-df22-4e3f-aa1a-5a3be19f82df",
+        "template_version": "8",
+        "timestamp": "1703240403",
+        "uuid": "635ec65f-5434-4b38-a3d7-38ed8b175b6c",
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "link",
+            "timestamp": "1703240403",
+            "to_ids": false,
+            "type": "link",
+            "uuid": "72898b09-b4ff-4b80-aefc-39a753f4ceb5",
+            "value": "https://www.proofpoint.com/us/blog/threat-insight/battleroyal-darkgate-cluster-spreads-email-and-fake-browser-updates"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "summary",
+            "timestamp": "1703240403",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "5a9a1330-4516-4fc0-8ab4-9ff7f4954c5f",
+            "value": "Throughout the summer and fall of 2023, DarkGate entered the ring competing for the top spot in the remote access trojan (RAT) and loader category. It was observed in use by multiple cybercrime actors and was spread via many methods such as email, Microsoft Teams, Skype, malvertising and fake updates. \r\n\r\nProofpoint researchers are tracking a particularly interesting operator of the DarkGate malware. At the time of publication, researchers are not attributing this cluster of activity to a known threat actor and are temporarily calling it BattleRoyal. Between September and November 2023, at least 20 email campaigns used DarkGate malware with GroupIDs \u201cPLEX\u201d, \u201cADS5\u201d, \u201cuser_871236672\u201d and \u201cusr_871663321\u201d. The GroupID is a configuration setting that is also referred to as username, botnet, campaign, or flag 23. The campaigns are notable for:"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "title",
+            "timestamp": "1703240403",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "58fb9365-2f9e-4198-9a07-20718dc706b6",
+            "value": "BattleRoyal, DarkGate Cluster Spreads via Email and Fake Browser Updates"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "type",
+            "timestamp": "1703240403",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "f0218d1d-017d-4c6a-b2ed-eb3b83f9f5e2",
+            "value": "Blog"
+          }
+        ]
+      },
+      {
+        "comment": "CVE-2023-36025: Enriched via the cve_advanced module",
+        "deleted": false,
+        "description": "Vulnerability object describing a common vulnerability enumeration which can describe published, unpublished, under review or embargo vulnerability for software, equipments or hardware.",
+        "meta-category": "vulnerability",
+        "name": "vulnerability",
+        "template_uuid": "81650945-f186-437b-8945-9f31715d32da",
+        "template_version": "8",
+        "timestamp": "1703240520",
+        "uuid": "5597432b-8b41-45e3-9fad-12af0b99ab96",
+        "ObjectReference": [
+          {
+            "comment": "",
+            "object_uuid": "5597432b-8b41-45e3-9fad-12af0b99ab96",
+            "referenced_uuid": "b67555fd-db13-477a-8172-a62cbbbcea98",
+            "relationship_type": "related-to",
+            "timestamp": "1703240521",
+            "uuid": "447bf599-1677-46e9-b734-3075f3635e6a"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "id",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "vulnerability",
+            "uuid": "4fa9353e-042e-42a8-a6b7-33a901df5a89",
+            "value": "CVE-2023-36025"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "summary",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "484b990f-be91-40fd-97fc-a0d0df6a9b5f",
+            "value": "Windows SmartScreen Security Feature Bypass Vulnerability"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "modified",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "datetime",
+            "uuid": "607ecde9-5a1c-47dd-8054-e252f2cfe7fc",
+            "value": "2023-11-21T01:33:00+00:00"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "cvss-score",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "float",
+            "uuid": "432e53ab-3314-4cc2-a8b9-f1297cf815f4",
+            "value": "8.8"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "cvss-string",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "a3faa87e-875d-427f-9029-cd7f001c46a2",
+            "value": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "published",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "datetime",
+            "uuid": "76181ac5-2daf-4c4f-9f64-f771fd08dfc9",
+            "value": "2023-11-14T18:15:00+00:00"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "state",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "1822490d-a9e0-49f1-902a-313d78b2c8fb",
+            "value": "Published"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "714efcf0-06dd-471f-adbf-e8c4d686475a",
+            "value": "cpe:2.3:o:microsoft:windows_server_2008:r2:sp1:*:*:*:*:x64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "c9a7f462-dab1-45f1-a333-da4b5df981e2",
+            "value": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "f604025f-8de6-4ee0-8b30-565074746224",
+            "value": "cpe:2.3:o:microsoft:windows_server_2016:-:*:*:*:*:*:*:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "3531be6e-6fd8-415b-ac7e-9afd0bc2415a",
+            "value": "cpe:2.3:o:microsoft:windows_server_2012:-:*:*:*:*:*:*:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "55e1cb6d-0d3c-49d0-b6b2-272575febf85",
+            "value": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "badb7a00-1971-4018-995f-e3094e7c79a3",
+            "value": "cpe:2.3:o:microsoft:windows_server_2008:-:sp2:*:*:*:*:x86:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "256cf69e-6235-4e25-9120-ff81054334a2",
+            "value": "cpe:2.3:o:microsoft:windows_server_2022:-:*:*:*:*:*:*:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "8da1433f-255c-4bbc-85cd-f2fa47c0e576",
+            "value": "cpe:2.3:o:microsoft:windows_11_22h2:-:*:*:*:*:*:x64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "6fb1ec91-22e6-40a1-ab27-ba4127b4dd97",
+            "value": "cpe:2.3:o:microsoft:windows_10_1607:-:*:*:*:*:*:x64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "c7b0b126-3d28-4cc3-b546-d2f82a41a42b",
+            "value": "cpe:2.3:o:microsoft:windows_10_1809:-:*:*:*:*:*:x64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "bd8e0bda-47dc-470c-921d-fbfb18805be4",
+            "value": "cpe:2.3:o:microsoft:windows_10_21h2:-:*:*:*:*:*:x64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "3bae54ae-4abd-49f4-a442-d030cb64220e",
+            "value": "cpe:2.3:o:microsoft:windows_10_22h2:-:*:*:*:*:*:x64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "0987be26-85aa-4162-ac46-62dd1ab13105",
+            "value": "cpe:2.3:o:microsoft:windows_10_21h2:-:*:*:*:*:*:arm64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "3ee51806-9046-4c54-a93f-a0966017c4ff",
+            "value": "cpe:2.3:o:microsoft:windows_10_21h2:-:*:*:*:*:*:x86:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "b3d3201f-0e9a-4c27-8812-a490af19fa80",
+            "value": "cpe:2.3:o:microsoft:windows_10_22h2:-:*:*:*:*:*:arm64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240520",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "1d07e832-9f44-46ce-ade2-a1f3cc24c394",
+            "value": "cpe:2.3:o:microsoft:windows_10_1809:-:*:*:*:*:*:arm64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "173254d2-32ce-4880-892d-9c35ed7d3ef4",
+            "value": "cpe:2.3:o:microsoft:windows_10_1809:-:*:*:*:*:*:x86:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "cad8a708-fbd6-4979-99f8-2cb8efb212a2",
+            "value": "cpe:2.3:o:microsoft:windows_10_22h2:-:*:*:*:*:*:x86:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "6df3309f-bb56-42d5-b7d1-d5befa535308",
+            "value": "cpe:2.3:o:microsoft:windows_10_1607:-:*:*:*:*:*:x86:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "df0dc227-4048-4ecb-9197-4b6953286fda",
+            "value": "cpe:2.3:o:microsoft:windows_11_21h2:-:*:*:*:*:*:arm64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "6d984796-01d7-46f6-8cfa-e313dc0b2b60",
+            "value": "cpe:2.3:o:microsoft:windows_11_22h2:-:*:*:*:*:*:arm64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "384aefd9-820d-4914-a3ed-da930112ab30",
+            "value": "cpe:2.3:o:microsoft:windows_11_21h2:-:*:*:*:*:*:x64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "34b0b47f-206c-4134-9ef0-1659c38e15c8",
+            "value": "cpe:2.3:o:microsoft:windows_10_1507:-:*:*:*:*:*:x64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "b93677f5-7280-45d0-aa7a-b5d19efd19be",
+            "value": "cpe:2.3:o:microsoft:windows_10_1507:-:*:*:*:*:*:x86:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "024336e5-a198-44ae-a17e-34c001b9e1ef",
+            "value": "cpe:2.3:o:microsoft:windows_11_23h2:-:*:*:*:*:*:arm64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "vulnerable-configuration",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "cpe",
+            "uuid": "19bbf81a-c9fa-4598-9841-fa9326ef5968",
+            "value": "cpe:2.3:o:microsoft:windows_11_23h2:-:*:*:*:*:*:x64:*"
+          },
+          {
+            "category": "External analysis",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "references",
+            "timestamp": "1703240521",
+            "to_ids": false,
+            "type": "link",
+            "uuid": "07adc2ab-e4df-46df-85e1-ca4cdd3cce5d",
+            "value": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36025"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "deleted": false,
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "name": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "24",
+        "timestamp": "1703240582",
+        "uuid": "75087ad7-fa5f-4c1f-8787-5a4ae9196e6d",
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "sha256",
+            "timestamp": "1703240582",
+            "to_ids": true,
+            "type": "sha256",
+            "uuid": "43fd06b4-0ca1-4388-aa14-94b77792cc99",
+            "value": "fce452bcf10414ece8eee6451cf52b39211eb65ecaa02a15bc5809c8236369a4"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "deleted": false,
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "name": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "24",
+        "timestamp": "1703240590",
+        "uuid": "723b5871-f074-4ce8-9849-724d5511b982",
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "sha256",
+            "timestamp": "1703240590",
+            "to_ids": true,
+            "type": "sha256",
+            "uuid": "39c78c9e-d22b-4db5-830e-59fe00018148",
+            "value": "ea8f893c080159a423c9122b239ec389939e4c3c1f218bdee16dde744e08188f"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "deleted": false,
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "name": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "24",
+        "timestamp": "1703240600",
+        "uuid": "fe25feaf-bafd-4d19-b65d-1f7c980a3aaa",
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "sha256",
+            "timestamp": "1703240600",
+            "to_ids": true,
+            "type": "sha256",
+            "uuid": "ec2c1b82-4f70-415e-b488-fda2077aa745",
+            "value": "e2a8a53e117f1dda2c09e5b83a13c99b848873a75b14d20823318840e84de243"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "deleted": false,
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "name": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "24",
+        "timestamp": "1703240608",
+        "uuid": "72cb4c96-1cdd-48ac-a541-fc06ae3c7525",
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "sha256",
+            "timestamp": "1703240608",
+            "to_ids": true,
+            "type": "sha256",
+            "uuid": "1dc1a4c8-5517-4876-9d35-ff7b690e5982",
+            "value": "96ca146b6bb95de35f61289c2725f979a2957ce54761aff5f37726a85f2f9e77"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "deleted": false,
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "name": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "24",
+        "timestamp": "1703240619",
+        "uuid": "b05a453c-a400-4517-9ce1-9371286a7e05",
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "sha256",
+            "timestamp": "1703240619",
+            "to_ids": true,
+            "type": "sha256",
+            "uuid": "2b8db52b-5133-40e2-bdfc-a4a037ebf53e",
+            "value": "7562c213f88efdb119a9bbe95603946ba3beb093c326c3b91e7015ae49561f0f"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "deleted": false,
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "name": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "24",
+        "timestamp": "1703240632",
+        "uuid": "b0aca4a0-0e80-4f79-81f7-553b6cccd173",
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "sha256",
+            "timestamp": "1703240632",
+            "to_ids": true,
+            "type": "sha256",
+            "uuid": "af8de4e4-d01b-48ed-931a-a933c9f3162f",
+            "value": "2f5af97b13b077a00218c60305b4eee5d88d14a9bd042beed286434c3fc6e084"
+          }
+        ]
+      },
+      {
+        "comment": "Enriched via the url_import module",
+        "deleted": false,
+        "description": "url object describes an url along with its normalized field (like extracted using faup parsing library) and its metadata.",
+        "meta-category": "network",
+        "name": "url",
+        "template_uuid": "60efb77b-40b5-4c46-871b-ed1ed999fce5",
+        "template_version": "9",
+        "timestamp": "1703240721",
+        "uuid": "709a4bd0-742d-4747-8e3d-a0625e3a8369",
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "url",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "url",
+            "uuid": "27c73a0f-b281-40c6-a3ca-6f0269d12562",
+            "value": "http://5.181.159.29:80/Downloads/12.url"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "resource_path",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "9d0b0836-3924-4ab3-b360-90befffc2ac0",
+            "value": "/Downloads/12.url"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "port",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "port",
+            "uuid": "d85ca606-c140-44d8-9d8a-6925586d4328",
+            "value": "80"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "host",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "hostname",
+            "uuid": "bf4b2b1f-976a-4716-be47-4fd7d443f53c",
+            "value": "5.181.159.29"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain_without_tld",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "bfcb4441-1fee-4516-b048-e2abf7adad84",
+            "value": "5.181.159.29"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "domain",
+            "uuid": "bd189c62-e706-4e94-b5cd-0ba202a111a2",
+            "value": "5.181.159.29"
+          }
+        ]
+      },
+      {
+        "comment": "Enriched via the url_import module",
+        "deleted": false,
+        "description": "url object describes an url along with its normalized field (like extracted using faup parsing library) and its metadata.",
+        "meta-category": "network",
+        "name": "url",
+        "template_uuid": "60efb77b-40b5-4c46-871b-ed1ed999fce5",
+        "template_version": "9",
+        "timestamp": "1703240721",
+        "uuid": "46b89b5b-a2ce-47a5-b71f-dcefee24dd09",
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "url",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "url",
+            "uuid": "3778c22e-5fe2-4216-95df-b7919ee6e3d9",
+            "value": "http://5.181.159.29:80/Downloads/evervendor.zip/evervendor.exe"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "resource_path",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "4365ebee-8bf6-4897-98b7-8908454bcc57",
+            "value": "/Downloads/evervendor.zip/evervendor.exe"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "port",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "port",
+            "uuid": "8477c032-1a29-4be3-bdb1-63c77d22a5fb",
+            "value": "80"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "host",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "hostname",
+            "uuid": "305e4414-50a6-41eb-96e7-0fb95f629306",
+            "value": "5.181.159.29"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain_without_tld",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "304e2d3e-888c-40c8-abf3-bf3c5dbd8bd3",
+            "value": "5.181.159.29"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "domain",
+            "uuid": "0186ec18-2e0e-4f57-bee2-d7438bd85186",
+            "value": "5.181.159.29"
+          }
+        ]
+      },
+      {
+        "comment": "Enriched via the url_import module",
+        "deleted": false,
+        "description": "url object describes an url along with its normalized field (like extracted using faup parsing library) and its metadata.",
+        "meta-category": "network",
+        "name": "url",
+        "template_uuid": "60efb77b-40b5-4c46-871b-ed1ed999fce5",
+        "template_version": "9",
+        "timestamp": "1703240721",
+        "uuid": "4672b9d2-f20a-441c-b2ca-c878b6a2d616",
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "url",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "url",
+            "uuid": "6452c40b-a6f9-413e-9815-7a1c8988dceb",
+            "value": "http://79.110.62.96:80/Downloads/bye.zip/bye.vbs"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "resource_path",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "b57de15d-463f-4681-8ade-912b15cfd0ac",
+            "value": "/Downloads/bye.zip/bye.vbs"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "port",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "port",
+            "uuid": "6f418d1c-55ca-4660-a9b0-972b09d5a989",
+            "value": "80"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "host",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "hostname",
+            "uuid": "b3cfff18-5802-4218-9ace-8b7baa2c0fa7",
+            "value": "79.110.62.96"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain_without_tld",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "4dd6bbe2-2ccc-4fba-8496-a7db3792d974",
+            "value": "79.110.62.96"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "domain",
+            "uuid": "03c9c7a1-16eb-4170-ae10-f022bd085d07",
+            "value": "79.110.62.96"
+          }
+        ]
+      },
+      {
+        "comment": "Enriched via the url_import module",
+        "deleted": false,
+        "description": "url object describes an url along with its normalized field (like extracted using faup parsing library) and its metadata.",
+        "meta-category": "network",
+        "name": "url",
+        "template_uuid": "60efb77b-40b5-4c46-871b-ed1ed999fce5",
+        "template_version": "9",
+        "timestamp": "1703240721",
+        "uuid": "cd56b1ab-1f34-4a19-a34e-d540bd319013",
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "url",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "url",
+            "uuid": "ec541ef8-185f-4d90-a7e1-ba0723fd717f",
+            "value": "http://searcherbigdealk.com:2351/msizjbicvmd"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "tld",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "413221e0-d86a-4bcc-ab70-fb2e1cede1b6",
+            "value": "com"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "resource_path",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "e9612a1c-d7cf-4530-88f1-707ae6f4e6b6",
+            "value": "/msizjbicvmd"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "port",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "port",
+            "uuid": "717bd18e-8e67-4b73-8f7f-6b37b33f49ae",
+            "value": "2351"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "host",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "hostname",
+            "uuid": "99b32656-8c82-4946-9732-515f10dd9fe9",
+            "value": "searcherbigdealk.com"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain_without_tld",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "c1bf0cf4-cc71-41b1-a800-55093a7262cc",
+            "value": "searcherbigdealk"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "domain",
+            "uuid": "a933570c-0f3f-4e86-b473-f4c338274bc4",
+            "value": "searcherbigdealk.com"
+          }
+        ]
+      },
+      {
+        "comment": "Enriched via the url_import module",
+        "deleted": false,
+        "description": "url object describes an url along with its normalized field (like extracted using faup parsing library) and its metadata.",
+        "meta-category": "network",
+        "name": "url",
+        "template_uuid": "60efb77b-40b5-4c46-871b-ed1ed999fce5",
+        "template_version": "9",
+        "timestamp": "1703240721",
+        "uuid": "9b353565-d858-4ebf-9fad-72662fe35bbf",
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "url",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "url",
+            "uuid": "3034c367-575e-42f6-8195-bddb9b693f98",
+            "value": "http://searcherbigdealk.com:2351/zjbicvmd"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "tld",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "9d41424d-cc5e-4512-af17-b6750564fe55",
+            "value": "com"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "resource_path",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "9a7d9252-c346-48c1-870d-489bca098d1f",
+            "value": "/zjbicvmd"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "port",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "port",
+            "uuid": "411d10f0-7320-4d9c-acf8-5882549ba188",
+            "value": "2351"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "host",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "hostname",
+            "uuid": "744d09d5-0468-4d6e-a7e3-5489da3eb319",
+            "value": "searcherbigdealk.com"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain_without_tld",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "f1076c3d-4740-48be-9b61-9e2db73a6a9f",
+            "value": "searcherbigdealk"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "domain",
+            "uuid": "d4b287a9-019f-4dac-ae7b-ec07bd00854c",
+            "value": "searcherbigdealk.com"
+          }
+        ]
+      },
+      {
+        "comment": "Enriched via the url_import module",
+        "deleted": false,
+        "description": "url object describes an url along with its normalized field (like extracted using faup parsing library) and its metadata.",
+        "meta-category": "network",
+        "name": "url",
+        "template_uuid": "60efb77b-40b5-4c46-871b-ed1ed999fce5",
+        "template_version": "9",
+        "timestamp": "1703240721",
+        "uuid": "4b885491-6ce9-4748-8c03-bbeb00f6a9fd",
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "url",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "url",
+            "uuid": "bac9e31c-0a57-4a84-92ae-3d2326ecd512",
+            "value": "https://heilee.com/qxz3l"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "tld",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "0be6aeeb-c87d-4234-a883-9a22a63f1f98",
+            "value": "com"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "resource_path",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "3e9a8641-bbe5-45d8-87e7-d51f0243a039",
+            "value": "/qxz3l"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "host",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "hostname",
+            "uuid": "e4faecd5-c435-4d9f-b488-6b1aa37b0072",
+            "value": "heilee.com"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain_without_tld",
+            "timestamp": "1703240721",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "a71a3dfa-7ec9-42f7-9f42-3c6e350880f8",
+            "value": "heilee"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "domain",
+            "uuid": "44c52821-64a7-4f78-9f5c-630458b2715d",
+            "value": "heilee.com"
+          }
+        ]
+      },
+      {
+        "comment": "Enriched via the url_import module",
+        "deleted": false,
+        "description": "url object describes an url along with its normalized field (like extracted using faup parsing library) and its metadata.",
+        "meta-category": "network",
+        "name": "url",
+        "template_uuid": "60efb77b-40b5-4c46-871b-ed1ed999fce5",
+        "template_version": "9",
+        "timestamp": "1703240721",
+        "uuid": "cf7bf3e6-22de-4aa6-a8c1-b6aaf0a840a2",
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "url",
+            "timestamp": "1703240721",
+            "to_ids": true,
+            "type": "url",
+            "uuid": "67d2d410-5cc9-4b10-899b-1376eb1d4bf7",
+            "value": "https://kairoscounselingmi.com/wp-content/uploads/astra/help/pr-nv28-2023.url"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": true,
+            "object_relation": "tld",
+            "timestamp": "1703240722",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "5a2ca911-0141-4813-a6a2-bf98d6cda473",
+            "value": "com"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "resource_path",
+            "timestamp": "1703240722",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "600613de-48dc-4374-bb84-4aa9783ef085",
+            "value": "/wp-content/uploads/astra/help/pr-nv28-2023.url"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "host",
+            "timestamp": "1703240722",
+            "to_ids": true,
+            "type": "hostname",
+            "uuid": "6c4825e3-555b-44a2-862e-9357511b6933",
+            "value": "kairoscounselingmi.com"
+          },
+          {
+            "category": "Other",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain_without_tld",
+            "timestamp": "1703240722",
+            "to_ids": false,
+            "type": "text",
+            "uuid": "6710aa39-be98-46b8-8782-bea6c861d21e",
+            "value": "kairoscounselingmi"
+          },
+          {
+            "category": "Network activity",
+            "comment": "",
+            "deleted": false,
+            "disable_correlation": false,
+            "object_relation": "domain",
+            "timestamp": "1703240722",
+            "to_ids": true,
+            "type": "domain",
+            "uuid": "ebe1cd50-bfff-454d-841a-c15c7cc05e70",
+            "value": "kairoscounselingmi.com"
+          }
+        ]
+      }
+    ],
+    "EventReport": [
+      {
+        "name": "Report from - https://www.proofpoint.com/us/blog/threat-insight/battleroyal-darkgate-cluster-spreads-email-and-fake-browser-updates (1703240419)",
+        "content": "#  BattleRoyal, DarkGate Cluster Spreads via Email and Fake Browser Updates\r\n\r\nDecember 21, 2023   Axel F, Dusty Miller, Tommy Madjar and Selena Larson    \r\n\r\n### Overview\r\n\r\n Throughout the summer and fall of 2023, DarkGate entered the ring competing for the top spot in the remote access trojan (RAT) and loader category. It was observed in use by multiple cybercrime actors and was spread via many methods such as email, Microsoft Teams, Skype, malvertising and fake updates. \r\n\r\n Proofpoint researchers are tracking a particularly interesting operator of the DarkGate malware. At the time of publication, researchers are not attributing this cluster of activity to a known threat actor and are temporarily calling it BattleRoyal. Between September and November 2023, at least 20 email campaigns used DarkGate malware with GroupIDs \u201cPLEX\u201d, \u201cADS5\u201d, \u201cuser\\_871236672\u201d and \u201cusr\\_871663321\u201d. The GroupID is a configuration setting that is also referred to as username, botnet, campaign, or flag 23. The campaigns are notable for: \r\n\r\n \r\n* **Delivery:** via email and RogueRaticate fake browser updates \r\n * **Volumes and geography:** email campaigns include tens of thousands of emails targeting dozens of industries primarily in USA and Canada \r\n * **Attack chain:** includes a variety of notable tools such as 404 TDS, Keitaro TDS, and .URL files exploiting CVE-2023-36025 \r\n \r\n *Volume of DarkGate campaigns based on four GroupIDs discussed in this report.* \r\n\r\n ### TDS all the things! (an email campaign example)\r\n\r\n On October 2, 2023, Proofpoint identified one of the first campaigns in this cluster. It was notable due to the use of more than one traffic delivery system (TDS), specifically 404 TDS and Keitaro TDS. Additionally, the .URL files involved exploited CVE-2023-36025, a vulnerability in Windows SmartScreen. While other parts of the attack chain from this actor changed or varied, .URL files were involved in every campaign. \r\n\r\n The emails in this campaign contained: \r\n\r\n \r\n* 404 TDS URLs that, if clicked by the user, redirected to Keitaro TDS \r\n * Keitaro TDS was observed serving an internet shortcut (.URL) file \r\n * The internet shortcut, if double clicked, downloaded a zipped VBS script \r\n * The VBS in turn downloaded and executed several shell commands (cmd.exe) \r\n * The shell commands (a) created a directory on C: drive, (b) copied curl.exe from system folder to this new directory, (c) used the curl to download Autoit3.exe, (d) used curl to download and save an AutoIT script, and (e) ran the downloaded AutoIT script with the downloaded AutoIT interpreter \r\n * The AutoIT script ran an embedded DarkGate \r\n \r\n *Attack chain summary that follows the flow of: Email > 404 TDS > Keitaro TDS > .URL > .VBS > Shell commands > AutoIT / AutoIT script > DarkGate.* \r\n\r\n  *Screenshot of an example email from October 2 campaign.* \r\n\r\n  *Screenshot of the .URL file involved in the October 2 campaign.* \r\n\r\n Proofpoint has identified multiple cybercriminal campaigns exploiting CVE-2023-36025; however, the BattleRoyal cluster exploited this vulnerability more than any other actor observed in Proofpoint threat data. Notably, this activity cluster exploited CVE-2023-36025 before it was published by Microsoft. SmartScreen is a security feature that is designed to prevent people from visiting malicious websites. The vulnerability could allow an actor to bypass the SmartScreen defenses if a user clicked on a specially crafted .URL file or a hyperlink pointing to a .URL file. More specifically, a SmartScreen alert would not be triggered when a .URL points to a SMB or WebDav share as file:// and the malicious payload is inside a ZIP file which is specified in the URL target. \r\n\r\n ### RogueRaticate (fake browser update campaign example)\r\n\r\n On October 19, 2023, an external researcher identified and publicly shared details of the RogueRaticate fake update activity cluster using an interesting obfuscation technique first identified in 2020. Proofpoint subsequently identified the activity in Proofpoint data. This campaign delivered fake browser update requests to end users on their web browsers that dropped a DarkGate payload with the \u201cADS5\u201d GroupID. The threat actor injected a request to a domain they controlled that used .css steganography to conceal the malicious code. The stenography would then make a request to an actor controlled Keitaro domain that would filter out unwanted traffic. Users who passed the traffic inspection would be redirected to a fake browser update. If an end user clicked on the fake browser update button, it would download a similar .URL file as the email campaign described above and follow the attack chain from that point to deliver DarkGate.\r\n\r\n  *Fake browser update request screenshot.* \r\n\r\n ### Switch to NetSupport (an email campaign example)\r\n\r\n In late November to early December, Proofpoint analysts observed the activity cluster replace DarkGate with NetSupport, a legitimate remote access tool, in observed campaigns. Compared to DarkGate, NetSupport is a more established tool in the toolbelt of various crime actors. It has steadily been observed in the landscape in the past four years. Meanwhile, the use of DarkGate before summer 2023 has been very rare. It remains to be seen if the reason for payload switch is due to the spike in DarkGate\u2019s popularity and the subsequent attention paid to the malware by threat researchers and security community (which can lead to reduction of efficacy), or simply a temporary change to a different payload. Besides the payload switch, another notable change in this campaign that represents a gradual evolution of the cluster includes the use of two .URL files instead of one. \r\n\r\n In an example campaign on November 28, 2023, the emails contained: \r\n\r\n \r\n* Doubleclick.net URLs that, if clicked by the user, redirected to Keitaro TDS \r\n * Keitaro TDS was observed serving an Internet shortcut (.URL) file \r\n * The Internet shortcut, if double clicked, downloaded another Internet shortcut (.URL) file \r\n * The second Internet shortcut linked to a NetSupport executable \r\n \r\n *Attack chain summary that follows the flow of: Email > URL (doubleclick.net) > Keitaro TDS (Cookie: 6e41c) > .URL > .URL > NetSupport.* \r\n\r\n  *Screenshot of an example email from November 28 campaign.* \r\n\r\n  *Screenshot of the .URL file involved in the November 28 campaign.* \r\n\r\n ### Conclusion\r\n\r\n The newly identified cluster of activity Proofpoint calls BattleRoyal is notable for its use of multiple attack chains to deliver malware. DarkGate can be used to steal information and download additional malware payloads, and NetSupport can enable threat actors to gain control of an infected host, install additional malware, and enable lateral movement throughout a compromised environment. The actor\u2019s use of both email and compromised websites with fake update lures to deliver DarkGate and NetSupport is unique but aligns with the overall trend Proofpoint has observed of cybercriminal threat actors adopting new, varied, and increasingly creative attack chains \u2013 including the use of various TDS tools \u2013 to enable malware delivery. Additionally, the use of both email and fake update lures shows the actor using multiple types of social engineering techniques in an attempt to get users to install the final payload. \r\n\r\n ### Emerging Threats signatures\r\n\r\n 2049321 - ET MALWARE WebDAV Retrieving .exe from .url M2 (CVE-2023-36025) \r\n\r\n 2049320 - ET MALWARE WebDAV Retrieving .zip from .url M2 (CVE-2023-36025) \r\n\r\n 2049317 - ET MALWARE WebDAV Retrieving .zip from .url M1 (CVE-2023-36025) \r\n\r\n 2049316 - ET MALWARE WebDAV Retrieving .exe from .url M1 (CVE-2023-36025) \r\n\r\n 2048098 - ET MALWARE DarkGate AutoIt Downloader \r\n\r\n 2048089 - ET MALWARE Darkgate Stealer CnC Checkin \r\n\r\n 2035895 - ET INFO NetSupport Remote Admin Response \r\n\r\n 2034559 - ET POLICY NetSupport GeoLocation Lookup Request \r\n\r\n 2035892 - ET INFO NetSupport Remote Admin Checkin \r\n\r\n 2827745 - ETPRO MALWARE NetSupport RAT CnC Activity \r\n\r\n ### Indicators of compromise\r\n\r\n  **Indicator** \r\n\r\n   **Description** \r\n\r\n   **First Observed** \r\n\r\n   hxxps[:]//heilee[.]com/qxz3l \r\n\r\n   Example 404 TDS URL (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   Hxxps[:]//nathumvida[.]org/ \r\n\r\n   Keitaro TDS (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   96ca146b6bb95de35f61289c2725f979a2957ce54761aff5f37726a85f2f9e77 \r\n\r\n   SHA256 of \u201cIN-SEPT-8415-8794132.pdf.url\u201d served by Keirato (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   file[:]//79.110.62[.]96@80/Downloads/bye.zip/bye.vbs \r\n\r\n   Target of the .URL file \u201cIN-SEPT-8415-8794132.pdf.url\u201d (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   e2a8a53e117f1dda2c09e5b83a13c99b848873a75b14d20823318840e84de243 \r\n\r\n   SHA256 of file \u201cbye.vbs\u201d downloaded by .URL (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   hxxp[:]//searcherbigdealk[.]com:2351/zjbicvmd \r\n\r\n   \u201cbye.vbs\u201d downloads shell commands from this URL (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   hxxp[:]//searcherbigdealk[.]com:2351 \r\n\r\n   Shell command downloads \u201cAutoit3.exe\u201d from this URL (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   hxxp[:]//searcherbigdealk[.]com:2351/msizjbicvmd \r\n\r\n   Shell command downloads \u201ciabyhu.au3\u201d from this URL (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   237d1bca6e056df5bb16a1216a434634109478f882d3b1d58344c801d184f95d \r\n\r\n   SHA256 of \u201cAutoit3.exe\u201d (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   2f5af97b13b077a00218c60305b4eee5d88d14a9bd042beed286434c3fc6e084 \r\n\r\n   SHA256 of \u201cggvjzi.au3\u201d (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   161.35.113[.]58:443 \r\n\r\n   DarkGate C2 (DarkGate campaign) \r\n\r\n   2 October 2023 \r\n\r\n   zxcdota2huysasi[.]com \r\n\r\n   RogueRaticate Payload Host \r\n\r\n   19 October 2023 \r\n\r\n   hxxps[:]//adclick.g.doubleclick[.]net/pcs/click?fjWWEJMP5797-NovemberQFRSQG65799kd&&adurl=hxxps[:]//kairoscounselingmi[.]com/ \r\n\r\n   Example doubleclick[.]net URL (NetSupport campaign) \r\n\r\n   28 November 2023 \r\n\r\n   hxxps[:]//kairoscounselingmi[.]com/ \r\n\r\n   Keitaro TDS (NetSupport campaign) \r\n\r\n   28 November 2023 \r\n\r\n   hxxps[:]//kairoscounselingmi[.]com/wp-content/uploads/astra/help/pr-nv28-2023.url \r\n\r\n   Keitaro TDS downloading .URL file (NetSupport campaign) \r\n\r\n   28 November 2023 \r\n\r\n   fce452bcf10414ece8eee6451cf52b39211eb65ecaa02a15bc5809c8236369a4 \r\n\r\n   SHA256 of file \u201cpr-nv28-2023.url\u201d (NetSupport campaign) \r\n\r\n   28 November 2023 \r\n\r\n   file[:]//5.181.159[.]29@80/Downloads/12.url \r\n\r\n   Target of the .URL file \u201cpr-nv28-2023.url\u201d (NetSupport campaign) \r\n\r\n   28 November 2023 \r\n\r\n   ea8f893c080159a423c9122b239ec389939e4c3c1f218bdee16dde744e08188f \r\n\r\n   SHA256 of file \u201c12.url\u201d (NetSupport campaign) \r\n\r\n   28 November 2023 \r\n\r\n   file[:]//5.181.159[.]29@80/Downloads/evervendor.zip/evervendor.exe \r\n\r\n   Targetof the .URL file \u201c12.url\u201d (NetSupport campaign) \r\n\r\n   28 November 2023 \r\n\r\n   7562c213f88efdb119a9bbe95603946ba3beb093c326c3b91e7015ae49561f0f \r\n\r\n   SHA256 of file \u201cevervendor.exe\u201d (NetSupport campaign) \r\n\r\n   28 November 2023 \r\n\r\n         Previous Blog Post          Subscribe to the Proofpoint Blog\r\n\r\n                    Google Code for Remarketing Tag  ------------------------------------------------ Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup -------------------------------------------------",
+        "id": "316",
+        "event_id": "205274",
+        "timestamp": "1703240472",
+        "uuid": "aa1738ae-c325-4934-a532-044cd9afdf4a",
+        "deleted": false
+      }
+    ]
+  }
+}

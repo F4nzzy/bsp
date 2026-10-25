@@ -1,0 +1,429 @@
+{
+  "Event": {
+    "analysis": "2",
+    "date": "2017-02-22",
+    "extends_uuid": "",
+    "info": "OSINT - Additional Insights on Shamoon2",
+    "publish_timestamp": "1487749531",
+    "published": true,
+    "threat_level_id": "3",
+    "timestamp": "1487749505",
+    "uuid": "58ad3fed-cc40-4087-a6f8-3ca5950d210f",
+    "Orgc": {
+      "name": "CIRCL",
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "local": false,
+        "name": "misp-galaxy:tool=\"Shamoon\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:white",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749505",
+        "to_ids": false,
+        "type": "text",
+        "uuid": "58ad4004-b954-44b5-8d14-335c950d210f",
+        "value": "IBM analysts recently unveiled a first look at how threat actors may have placed Shamoon2 malware on systems in Saudi Arabia. Researchers showcased a potential malware lifecycle which started with spear phishing and eventually led to the deployment of the disk-wiping malware known as Shamoon. Their research showcased a set of downloaders and domains that could potentially lead to a more extensive malware distribution campaign.\r\n\r\nWhile researching elements in the IBM report, ASERT discovered additional malicious domains, IP addresses, and artifacts. The basic functionality of the new documents and their PowerShell components matched what was previously disclosed. For more information on the overall capabilities of the malware, please review IBM\u00e2\u20ac\u2122s ongoing research.  It is our hope that by providing additional indicators, end-point investigators and network defenders will be able to discover and mitigate more Shamoon2 related compromises.",
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "local": false,
+            "name": "osint:source-type=\"blog-post\"",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749497",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "58ad403a-c970-49f4-b47b-5539950d210f",
+        "value": "https://www.arbornetworks.com/blog/asert/additional-insights-shamoon2/",
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "local": false,
+            "name": "osint:source-type=\"blog-post\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#075200",
+            "local": false,
+            "name": "admiralty-scale:source-reliability=\"b\"",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "md5",
+        "uuid": "58ad406c-cf78-4ace-ba79-335b950d210f",
+        "value": "2a0df97277ddb361cecf8726df6d78ac"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "md5",
+        "uuid": "58ad406d-d99c-4c2a-bc72-335b950d210f",
+        "value": "5e5ea1a67c2538dbc01df28e4ea87472"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "md5",
+        "uuid": "58ad406e-0cc0-4da1-af39-335b950d210f",
+        "value": "d30b8468d16b631cafe458fd94cc3196"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "58ad4086-91f0-4dad-aae5-5536950d210f",
+        "value": "104.218.120.128"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "58ad4087-3b64-4bc7-8fd7-5536950d210f",
+        "value": "69.87.223.26"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "58ad4088-fb40-4c7f-97ff-5536950d210f",
+        "value": "5.254.100.200"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "url",
+        "uuid": "58ad4098-8b48-4903-886b-5538950d210f",
+        "value": "analytics-google.org:69/checkFile.aspx"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "58ad4099-8c5c-4e46-9cc8-5538950d210f",
+        "value": "analytics-google.org"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "url",
+        "uuid": "58ad409a-49c8-4a8b-b273-5538950d210f",
+        "value": "69.87.223.26:8080/p"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "Pivoting on Passive DNS",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "md5",
+        "uuid": "58ad40bc-d398-4ad9-82e5-3c9f950d210f",
+        "value": "83be35956e5d409306a81e88a1dc89fd"
+      },
+      {
+        "category": "Network activity",
+        "comment": "Pivoting on Passive DNS",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "58ad40d4-f374-434d-97ac-366a950d210f",
+        "value": "45.63.10.99"
+      },
+      {
+        "category": "Network activity",
+        "comment": "Pivoting on Passive DNS",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "58ad40e7-b870-456b-9a2b-2cf1950d210f",
+        "value": "go-microstf.com"
+      },
+      {
+        "category": "Network activity",
+        "comment": "Pivoting on Passive DNS",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "url",
+        "uuid": "58ad40e8-1c08-4c70-98f0-2cf1950d210f",
+        "value": "69.87.223.26:8080/eiloShaegae1"
+      },
+      {
+        "category": "Network activity",
+        "comment": "Pivoting on Passive DNS",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "url",
+        "uuid": "58ad40e9-db2c-4e10-8743-2cf1950d210f",
+        "value": "go-microstf.com/checkfile.aspx"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "hostname",
+        "uuid": "58ad4106-950c-4683-8c00-2cf0950d210f",
+        "value": "get.adobe.go-microstf.com"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "58ad4117-5f84-4988-b400-2ceb950d210f",
+        "value": "104.238.184.252"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749441",
+        "to_ids": true,
+        "type": "md5",
+        "uuid": "58ad4129-f6a8-4a80-bf76-2ceb950d210f",
+        "value": "07d6406036d6e06dc8019e3ade6ee7de"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "- Xchecked via VT: 07d6406036d6e06dc8019e3ade6ee7de",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749457",
+        "to_ids": true,
+        "type": "sha256",
+        "uuid": "58ad4151-8700-49a5-9069-553302de0b81",
+        "value": "c21074f340665935e6afe2a972c8d1ab517954e2dd05cc73e5ff0e8df587b99d"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "- Xchecked via VT: 07d6406036d6e06dc8019e3ade6ee7de",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749458",
+        "to_ids": true,
+        "type": "sha1",
+        "uuid": "58ad4152-e214-4ca0-812b-553302de0b81",
+        "value": "25b09cdd135197ccd8981488f38b045000297439"
+      },
+      {
+        "category": "External analysis",
+        "comment": "- Xchecked via VT: 07d6406036d6e06dc8019e3ade6ee7de",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749459",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "58ad4153-d088-415d-acd9-553302de0b81",
+        "value": "https://www.virustotal.com/file/c21074f340665935e6afe2a972c8d1ab517954e2dd05cc73e5ff0e8df587b99d/analysis/1487258163/"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "Pivoting on Passive DNS - Xchecked via VT: 83be35956e5d409306a81e88a1dc89fd",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749460",
+        "to_ids": true,
+        "type": "sha256",
+        "uuid": "58ad4154-50f4-4730-921d-553302de0b81",
+        "value": "924b4615ba6e6ed87fad81ad4c2ae876d10a9b34fb347210a2ec7621b92005cb"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "Pivoting on Passive DNS - Xchecked via VT: 83be35956e5d409306a81e88a1dc89fd",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749460",
+        "to_ids": true,
+        "type": "sha1",
+        "uuid": "58ad4154-3ef4-442d-a894-553302de0b81",
+        "value": "6b3453b85d4cf7cc9a795ed710440da54ce6788c"
+      },
+      {
+        "category": "External analysis",
+        "comment": "Pivoting on Passive DNS - Xchecked via VT: 83be35956e5d409306a81e88a1dc89fd",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749461",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "58ad4155-a0f0-4a87-87e5-553302de0b81",
+        "value": "https://www.virustotal.com/file/924b4615ba6e6ed87fad81ad4c2ae876d10a9b34fb347210a2ec7621b92005cb/analysis/1480935772/"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5 - Xchecked via VT: d30b8468d16b631cafe458fd94cc3196",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749462",
+        "to_ids": true,
+        "type": "sha256",
+        "uuid": "58ad4156-babc-4f9b-a085-553302de0b81",
+        "value": "33ee8a57e142e752a9c8960c4f38b5d3ff82bf17ec060e4114f5b15d22aa902e"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5 - Xchecked via VT: d30b8468d16b631cafe458fd94cc3196",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749463",
+        "to_ids": true,
+        "type": "sha1",
+        "uuid": "58ad4157-4d74-4ca2-8b01-553302de0b81",
+        "value": "2079aa6e288bda7af96a2aa03702a38c29b91479"
+      },
+      {
+        "category": "External analysis",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5 - Xchecked via VT: d30b8468d16b631cafe458fd94cc3196",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749464",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "58ad4158-bdb4-4a6b-884f-553302de0b81",
+        "value": "https://www.virustotal.com/file/33ee8a57e142e752a9c8960c4f38b5d3ff82bf17ec060e4114f5b15d22aa902e/analysis/1487293998/"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5 - Xchecked via VT: 5e5ea1a67c2538dbc01df28e4ea87472",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749465",
+        "to_ids": true,
+        "type": "sha256",
+        "uuid": "58ad4159-6d60-4a11-9d8b-553302de0b81",
+        "value": "388b26e22f75a723ce69ad820b61dd8b75e260d3c61d74ff21d2073c56ea565d"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5 - Xchecked via VT: 5e5ea1a67c2538dbc01df28e4ea87472",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749466",
+        "to_ids": true,
+        "type": "sha1",
+        "uuid": "58ad415a-0b28-431d-bee6-553302de0b81",
+        "value": "175784206471985ed09f2c7f9d46b79ed6a9a6c6"
+      },
+      {
+        "category": "External analysis",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5 - Xchecked via VT: 5e5ea1a67c2538dbc01df28e4ea87472",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749467",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "58ad415b-aadc-4052-a47c-553302de0b81",
+        "value": "https://www.virustotal.com/file/388b26e22f75a723ce69ad820b61dd8b75e260d3c61d74ff21d2073c56ea565d/analysis/1487273714/"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5 - Xchecked via VT: 2a0df97277ddb361cecf8726df6d78ac",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749468",
+        "to_ids": true,
+        "type": "sha256",
+        "uuid": "58ad415c-d784-4b33-b933-553302de0b81",
+        "value": "71e584e7e1fb3cf2689f549192fe3a82fd4cd8ee7c42c15d736ebad47b028087"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5 - Xchecked via VT: 2a0df97277ddb361cecf8726df6d78ac",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749468",
+        "to_ids": true,
+        "type": "sha1",
+        "uuid": "58ad415c-ae28-4000-9834-553302de0b81",
+        "value": "d69fad4a24aade835197d060947719f65528fe84"
+      },
+      {
+        "category": "External analysis",
+        "comment": "In this case, a sample from the IBM report indicated the document author \u00e2\u20ac\u02dcgerry.knight\u00e2\u20ac\u2122 which led us to the following three additional samples. MD5 - Xchecked via VT: 2a0df97277ddb361cecf8726df6d78ac",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1487749469",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "58ad415d-8964-4516-8197-553302de0b81",
+        "value": "https://www.virustotal.com/file/71e584e7e1fb3cf2689f549192fe3a82fd4cd8ee7c42c15d736ebad47b028087/analysis/1487589486/"
+      }
+    ]
+  }
+}

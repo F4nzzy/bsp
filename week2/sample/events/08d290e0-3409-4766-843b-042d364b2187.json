@@ -1,0 +1,5399 @@
+{
+  "Event": {
+    "analysis": "1",
+    "date": "2026-04-10",
+    "extends_uuid": "",
+    "info": "Maltrail IOC for 2026-04-11",
+    "publish_timestamp": "1775944812",
+    "published": true,
+    "threat_level_id": "2",
+    "timestamp": "1775944812",
+    "uuid": "08d290e0-3409-4766-843b-042d364b2187",
+    "Orgc": {
+      "name": "Krawczyk Industries Limited",
+      "uuid": "593e9fc8-be28-4cb2-a79b-43f8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#d6f264",
+        "local": false,
+        "name": "MALWARE",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#00833c",
+        "local": false,
+        "name": "misp:threat-level=\"medium-risk\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#00ce5f",
+        "local": false,
+        "name": "misp:event-type=\"observation\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#009042",
+        "local": false,
+        "name": "misp:automation-level=\"unsupervised\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#004646",
+        "local": false,
+        "name": "type:OSINT",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0071c3",
+        "local": false,
+        "name": "osint:lifetime=\"perpetual\"",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#0064ac",
+        "local": false,
+        "name": "osint:source-type=\"manual-collection\"",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "comment": "obsidianstrikec2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T09:00:02+00:00",
+        "timestamp": "1775898003",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "f4283f8b-13df-4a47-88dc-fb1f57252448",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/eaf80eb0c49bdfa8748180da3975c2e89f9d954f",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "obsidianstrikec2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T09:00:03+00:00",
+        "timestamp": "1775898003",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "70c201b1-49d9-4c0d-9b0a-2d89d0df01da",
+        "value": "https://x.com/whoamix302/status/2042495957875769489",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "obsidianstrikec2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T09:00:03+00:00",
+        "timestamp": "1775898004",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "b7e7f10b-6994-45a2-9b5e-9d15b348f9b4",
+        "value": "137.184.240.126",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "obsidianstrikec2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T09:00:04+00:00",
+        "timestamp": "1775898005",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "6e975b0c-3953-42d7-a4fb-3f0f8cde9909",
+        "value": "137.184.76.141",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "android_joker",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T09:00:05+00:00",
+        "timestamp": "1775898005",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "a87e706d-2336-4ae9-931f-d9fd2fd1fbd7",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/889cb1b3b72097eeb1cdb2b9528588251bc5e1a9",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "android_joker",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T09:00:05+00:00",
+        "timestamp": "1775898005",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "83defd15-e94d-4f5e-9fd2-4a60873f2707",
+        "value": "lodra.help",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "generic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:07+00:00",
+        "timestamp": "1775901607",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "51815eb9-f64c-42c4-a786-aed0020b4f35",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/c32d3d3a8d65137f19b191af77befa8a11d955a8",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "generic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:07+00:00",
+        "timestamp": "1775901607",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "9f143073-a8b5-4ab8-a3d5-90c328b69670",
+        "value": "https://x.com/1ZRR4H/status/2041980239748743378",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "generic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:07+00:00",
+        "timestamp": "1775901608",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "250629ba-3d62-448e-828f-2d7d545a9a4a",
+        "value": "67.215.232.25",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "powershell_injector",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:08+00:00",
+        "timestamp": "1775901608",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "b52744a2-d932-40ab-8fc5-359e9187b18c",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/3f6da924c848ec51039f5878c2625b343440772b",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "powershell_injector",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:08+00:00",
+        "timestamp": "1775901608",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "80922580-51fd-4af3-bf86-0f248a186dc3",
+        "value": "https://www.virustotal.com/gui/file/db983813be5b9d7243ddfd3bc7ca3ab5e462f8b50571c250e91414ba1f5cbf30/detection",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "powershell_injector",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:08+00:00",
+        "timestamp": "1775901608",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "0a98a97b-b8ed-475c-a3dd-3dfe281fa622",
+        "value": "129.213.9.74",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "elf_mirai",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:08+00:00",
+        "timestamp": "1775901608",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "68a6c8a2-dd20-44f0-98dd-86d429336f97",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/87078cf1fca2e748865f56fb49e234e190e99360",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "elf_mirai",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:08+00:00",
+        "timestamp": "1775901608",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "c203bab1-3a72-4f77-a1ed-db4578d63f71",
+        "value": "https://www.virustotal.com/gui/file/032ffe0fc9acd67b5e38d5c7239a5c273d76a61c22667ce98b577a84bbf5508a/detection",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "valleyrat",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:09+00:00",
+        "timestamp": "1775901609",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "edce15fb-6b42-4a50-bbf9-16a89267e30c",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/aae99c6654135bace18388402a0e672be4c2610d",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "valleyrat",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:09+00:00",
+        "timestamp": "1775901609",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "5f57c9c8-d139-40d8-998e-1e25d1f291bd",
+        "value": "https://intel.breakglass.tech/post/silverfox-101-33-117-200-zspeeding-pprof-fanyiguang",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "valleyrat",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:09+00:00",
+        "timestamp": "1775901609",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "e4970371-f46c-41e0-a103-bff072779021",
+        "value": "101.33.117.200",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:09+00:00",
+        "timestamp": "1775901609",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "81c183ce-e186-4a2a-ae26-707f1c2ce75a",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/54b5edaebbd1b1e0dc634e5f0b925ce208b434e1",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:09+00:00",
+        "timestamp": "1775901609",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "67d95967-2e89-48b8-a203-ee7cccc5be6e",
+        "value": "read73s.dynv6.net",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:10+00:00",
+        "timestamp": "1775901610",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "9632cacf-caeb-4df6-986d-b991f2316681",
+        "value": "rule52s.dynv6.net",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:10+00:00",
+        "timestamp": "1775901610",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "40811b79-dbfe-46f0-b23d-892b6d249575",
+        "value": "rule62s.dynv6.net",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:10+00:00",
+        "timestamp": "1775901610",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "7ac909c3-66b4-4abb-8da7-9fb8b65014aa",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/01cbeb8b22562bb4751306d807d882c1298cc493",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:10+00:00",
+        "timestamp": "1775901610",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "acdcf44d-c8ca-42e3-afd4-3b6ddc5cad9a",
+        "value": "check.nid-log.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "smm_spamtool",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:10+00:00",
+        "timestamp": "1775901610",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "f8990456-b301-4327-8f91-86a1492c609d",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/e7a11ad9be49db267445569b72c90bf50072fd8d",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "smm_spamtool",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:10+00:00",
+        "timestamp": "1775901610",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "6e2a4d10-377f-4130-90ce-facc37b779f6",
+        "value": "https://x.com/JustWantToQ1/status/2042690486574436658",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "smm_spamtool",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:10+00:00",
+        "timestamp": "1775901611",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "da4301d0-7e91-4b3a-8f54-3d19361c757e",
+        "value": "144.76.57.92",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "smm_spamtool",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:11+00:00",
+        "timestamp": "1775901611",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "39424cf2-bd86-4086-b0f9-4d463734a08b",
+        "value": "23.94.199.102",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "android_bankbot",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:11+00:00",
+        "timestamp": "1775901611",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "2ef18a24-fe56-4608-8450-9a65b449c290",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/9ff7e50f6842c2fb26aaa2d801a18bcb03fa5511",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "android_bankbot",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:11+00:00",
+        "timestamp": "1775901611",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "b10c6679-68a7-44cc-b5b5-687871b64fab",
+        "value": "https://www.virustotal.com/gui/file/13a1ce24cca72db8ac1a53b87ba2c6983b0d1e2178cc3aec39c4b1eef28bc5e8/detection",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "android_bankbot",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:11+00:00",
+        "timestamp": "1775901611",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "c0c5485d-5cc1-4949-b9ec-dad4399f6498",
+        "value": "216.206.238.106",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "fakeav",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:11+00:00",
+        "timestamp": "1775901611",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "ad02217d-c727-4156-b3fc-98ac28c9c16f",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/2ba8d91c6437929a60568f2a5fb6ad67c3bd6a3c",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "fakeav",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:12+00:00",
+        "timestamp": "1775901612",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "969d53f0-e139-4216-8f50-0180de54ab7c",
+        "value": "https://www.virustotal.com/gui/file/6fdfa1f284c09ba1ecc314d610b072313d2394103b4aa27cc82bfbf51e9dd841/detection",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "fakeav",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:12+00:00",
+        "timestamp": "1775901612",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "b2865c1d-ec28-4198-a699-f1a5de8abd1f",
+        "value": "https://www.virustotal.com/gui/file/4d500a7c5d3523a2d88d6607fa507b2c2851123d49b74193f83c850f0cbe739a/detection",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeav",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:14+00:00",
+        "timestamp": "1775901614",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "cc08fc67-58a3-4075-9471-3dbef4fa8f51",
+        "value": "217.172.178.104",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeav",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:14+00:00",
+        "timestamp": "1775901614",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "87bf7f0e-f3b6-485a-9376-c86fb5fc1fbd",
+        "value": "libertybigestnoob.info",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeav",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T10:00:14+00:00",
+        "timestamp": "1775901614",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "65c94fd7-66b7-4603-8ac3-76003947b892",
+        "value": "statav2013.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "smm_spamtool",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:06+00:00",
+        "timestamp": "1775905206",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "18949ee3-f74d-4446-ac30-6b8b57cd0aee",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/c242845f8e4808705736c30ef8aafc52b0a24e3e",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "smm_spamtool",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:06+00:00",
+        "timestamp": "1775905207",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "ab4beabd-b0c9-4550-afaf-9ece776f3df9",
+        "value": "23.94.199.104",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:07+00:00",
+        "timestamp": "1775905207",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "43056433-c142-49c9-bc32-97ce2561e09b",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/8f429abb4ce1818826f7edf8b319e1422bc6f106",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:07+00:00",
+        "timestamp": "1775905207",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "ec475ac8-bf8d-4007-a39c-fc09743c900e",
+        "value": "https://ipinfo.io/AS215531",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:07+00:00",
+        "timestamp": "1775905207",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "a9abb77f-c3b9-4468-9088-3319884a4426",
+        "value": "https://x.com/BreakGlassIntel/status/2042706461776654406",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:07+00:00",
+        "timestamp": "1775905207",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "b7e8a6f7-4326-4a2a-8106-c0e00fd18a50",
+        "value": "31.58.245.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:07+00:00",
+        "timestamp": "1775905207",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "fdf3178b-96ab-43e3-9924-e01374df8b49",
+        "value": "77.83.37.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "adaptix_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:07+00:00",
+        "timestamp": "1775905208",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "8925ae9e-d04b-4596-a470-baa03389dedb",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/803ce3bd2c16637c0a5db650e610f87b2e364480",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "adaptix_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:08+00:00",
+        "timestamp": "1775905208",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "6f195644-300d-480c-a567-796e6022d59d",
+        "value": "207-148-122-131.cprapid.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "adaptix_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:08+00:00",
+        "timestamp": "1775905208",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "c595f454-88e5-403f-9609-f11133f177fb",
+        "value": "flocompsrep.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "adaptix_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:08+00:00",
+        "timestamp": "1775905208",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "9318f02e-4935-47e1-af0a-a90210afda36",
+        "value": "klaviyo-logs-campaigns.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "powershell_injector",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:08+00:00",
+        "timestamp": "1775905208",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "86810f2e-62a5-47f6-bb2e-17dc54d0bf43",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/19622728924195eaafe2ccb974dfbe57e156999c",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "powershell_injector",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:08+00:00",
+        "timestamp": "1775905208",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "6e671134-91ba-4b12-aa0d-b09a005cad41",
+        "value": "https://x.com/SinghSoodeep/status/2042911118633640322",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "powershell_injector",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:08+00:00",
+        "timestamp": "1775905208",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "9b0c725e-c5aa-4760-bcff-a7f267804ca8",
+        "value": "https://www.virustotal.com/gui/file/a1abbc1e0f2595aa946a5378984516f6fd8746009ba8299f92107914ca082c08/detection",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "powershell_injector",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:08+00:00",
+        "timestamp": "1775905209",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "3731dd7a-3b41-49bd-a0aa-71c437bbecdd",
+        "value": "april-dateroom.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:09+00:00",
+        "timestamp": "1775905209",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "6968fa52-6eed-4249-a745-8804bd4975b7",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/62c227f1111eead8d14407da5aee6ed35460aae2",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:09+00:00",
+        "timestamp": "1775905209",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "f142c98f-b1c5-4a14-90b0-9b7457567ac2",
+        "value": "https://x.com/masaomi346/status/2041905289600102591",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:09+00:00",
+        "timestamp": "1775905209",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "92ec3815-e2b6-435c-9205-cd7d80e42c16",
+        "value": "https://x.com/brkalbyrk7/status/2042141526847873165",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:09+00:00",
+        "timestamp": "1775905209",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "ff7d2a7e-25fa-41da-aab0-399675c5a372",
+        "value": "jpbassin.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:09+00:00",
+        "timestamp": "1775905209",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "9f029d53-daba-4444-be36-1b60fa77cc31",
+        "value": "mac-clean-storage.gitlab.io",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:09+00:00",
+        "timestamp": "1775905210",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "f9cb3b51-96f0-4ff9-a098-3419726532e6",
+        "value": "mac-usb-fix.bitbucket.io",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:10+00:00",
+        "timestamp": "1775905210",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "fe64a1b6-546c-487f-a03d-7528514daa0d",
+        "value": "claude-code-app.gitlab.io",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:10+00:00",
+        "timestamp": "1775905210",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "e5933ba8-d307-4890-8291-0985ce14a4fd",
+        "value": "claude-desktop-app.bitbucket.io",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "offloader",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:10+00:00",
+        "timestamp": "1775905210",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "7fbcc24d-9052-4c11-ab9a-b4ecbf7be874",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/456df2cdae00fd42c7145fa4866c761858f0a061",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "offloader",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:10+00:00",
+        "timestamp": "1775905210",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "194530f9-423f-4147-9f4d-53e785dce385",
+        "value": "baskethumor.xyz",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "offloader",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:10+00:00",
+        "timestamp": "1775905210",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "d3531c72-7050-41a3-a292-b6c0a8ba9be0",
+        "value": "bubbleslip.xyz",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "offloader",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:10+00:00",
+        "timestamp": "1775905210",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "5302b29c-5956-4a73-afb4-d457dcb46213",
+        "value": "curtainfuel.info",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "offloader",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:10+00:00",
+        "timestamp": "1775905211",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "d7f6caac-7a95-422d-8ec8-cafdb046b743",
+        "value": "fearstamp.cfd",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "offloader",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:11+00:00",
+        "timestamp": "1775905211",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "e97a83f7-49c9-4f5e-a3b2-df1d2015cdf9",
+        "value": "ringsparcel.xyz",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "vidar",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:11+00:00",
+        "timestamp": "1775905211",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "87a57225-eb5a-40ee-89e3-dcdca3e3f9b7",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/8e41902c2690db99a58a95dba2eb4e6c1e1f9e5b",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "vidar",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:11+00:00",
+        "timestamp": "1775905211",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "2e39e443-5c4b-47d3-b6e2-8d028f36f150",
+        "value": "binzadata.icu",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:11+00:00",
+        "timestamp": "1775905211",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "e987778d-ff72-4de1-b0fb-797bf1cfe669",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/046b4daa37a30c1921aa49d0dfe4689118c0662a",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:11+00:00",
+        "timestamp": "1775905211",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "8d3eaae7-085d-4ff5-9591-fa03a4ec4985",
+        "value": "detalnow.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:11+00:00",
+        "timestamp": "1775905212",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "0fd53f62-5d2d-4f65-a170-4faf1c49ac72",
+        "value": "hyperdatamesh2.xyz",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:12+00:00",
+        "timestamp": "1775905212",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "f43a838c-3317-46bb-a8e7-265519c1a854",
+        "value": "ultranodecluster1.xyz",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "magentocore",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:12+00:00",
+        "timestamp": "1775905212",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "ea43aba9-54e4-409c-9418-7da2670d7e94",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/57732cfd168f28971df1a84ec2a84291cc915824",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "magentocore",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:12+00:00",
+        "timestamp": "1775905212",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "6ded3407-9ec8-4b6d-a72d-64736fb5d51d",
+        "value": "eaiva.best",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:12+00:00",
+        "timestamp": "1775905212",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "43c35dec-bd7a-446b-a07c-314224e8153e",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/1f43259d18b7353e0e5a6585db728bfcc4027f29",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:12+00:00",
+        "timestamp": "1775905212",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "27fa3507-3fc1-4022-bb45-34d22997211e",
+        "value": "aointerviews.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:12+00:00",
+        "timestamp": "1775905212",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "e73b7c62-570b-46f4-9c0b-54329cd1f5c5",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/379b52abacf505691829792fa30df9d7aecfd2e0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:12+00:00",
+        "timestamp": "1775905213",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "4916c034-41df-4cd4-ba10-03273f6f78fd",
+        "value": "codbsd.cyou",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:13+00:00",
+        "timestamp": "1775905213",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "2e939d47-4f52-4b39-8f80-1c36d30942e8",
+        "value": "henofrl.cyou",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:13+00:00",
+        "timestamp": "1775905213",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "f6ebeeb6-2449-40f7-9a94-2990c78b136c",
+        "value": "opsonm.cyou",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:13+00:00",
+        "timestamp": "1775905213",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "1cd333b4-009a-4cc0-a714-8139924e7cb7",
+        "value": "poxzxin.cyou",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:13+00:00",
+        "timestamp": "1775905213",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "4b422f48-5446-473c-8fc5-e508bdf65714",
+        "value": "seriewo.cyou",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:13+00:00",
+        "timestamp": "1775905213",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "d9bcb3a7-5626-4834-917e-d6a7a7727632",
+        "value": "wrinkky.cyou",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "georgeginx",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:13+00:00",
+        "timestamp": "1775905214",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "23abf3db-d588-4dc8-a49c-debbea7161ec",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/e1e2fab81e5a928391d813d0669b3dca151839f2",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "georgeginx",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:14+00:00",
+        "timestamp": "1775905214",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "903a2c2b-4459-44c3-814d-93cec6a3d41d",
+        "value": "156.225.64.68",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "georgeginx",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T11:00:14+00:00",
+        "timestamp": "1775905214",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "c8fb0175-f97f-46f8-8069-0998d3474d17",
+        "value": "23.27.120.82",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "santa",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T12:00:02+00:00",
+        "timestamp": "1775908802",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "ca263842-ce19-43f2-92df-fb1b82059322",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/a20a011361bd212b2c4556db80987369b732f4db",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "santa",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T12:00:03+00:00",
+        "timestamp": "1775908803",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "9886a351-8db8-447a-ae7a-af54bf8fa62c",
+        "value": "hello-fuopla.icu",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "santa",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T18:00:02+00:00",
+        "timestamp": "1775930403",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "b5fe262d-a9f3-490e-94ce-23c29204bce4",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/f39f83be1476ab57c3926bb5e36b3c6e8e7c3264",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "santa",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T18:00:03+00:00",
+        "timestamp": "1775930403",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "8e319381-f975-4048-b056-5d6c0c35a622",
+        "value": "newworld-helloworld.icu",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "teampcp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:06+00:00",
+        "timestamp": "1775934006",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "56b05278-4598-4d9e-a58e-2945f503c5fd",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/981a40f43ee15fd7dc44137bff731607cd1b97f9",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "teampcp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:06+00:00",
+        "timestamp": "1775934007",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "f673caa8-c6bd-4bf5-b73f-c87d4733adda",
+        "value": "108.129.153.172",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "teampcp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:07+00:00",
+        "timestamp": "1775934007",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "52e860da-1e0f-49e2-a1b3-03ec7162cbb3",
+        "value": "67.217.57.240",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "teampcp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:07+00:00",
+        "timestamp": "1775934007",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "ebe31405-0830-46c6-ac3b-b68dfedc12d8",
+        "value": "security-verify.91.214.78.178.nip.io",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:07+00:00",
+        "timestamp": "1775934007",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "0418b296-2fc6-4c0d-8c7f-11e9bcf09599",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/007b5ca37c579870c69066e5756537ff9feb6aa1",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:08+00:00",
+        "timestamp": "1775934008",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "ed2a82fd-4625-4623-b14a-7657b32413f0",
+        "value": "t3.nid-log.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:08+00:00",
+        "timestamp": "1775934008",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "8930359a-8aac-4bbe-84a9-77b344d3d734",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/c4a1ba0682bb28287c45f992d2c5950daacd76b5",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:08+00:00",
+        "timestamp": "1775934008",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "f17c4797-66f0-49dc-8973-132feb86f86e",
+        "value": "appleid-customertelemetry.gl",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "hak5cloud_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:08+00:00",
+        "timestamp": "1775934008",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "bd556ca7-f7fc-4276-bace-35186f93beaf",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/f20fdbd2e07bbac0b65187810cdd5eecec920729",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "hak5cloud_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:08+00:00",
+        "timestamp": "1775934008",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "3d8c3a16-1bb5-45f0-a976-5050834a6feb",
+        "value": "whm.thotera.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "airbot",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:08+00:00",
+        "timestamp": "1775934009",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "4ba4c1be-5d7e-4475-aa3c-b6e209b68482",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/4bb4c3590ac8e18a715bc558b9295e34b3879a0a",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "airbot",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:09+00:00",
+        "timestamp": "1775934009",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "f6d820a4-493f-406c-8680-6ef8540889e2",
+        "value": "194.59.31.216",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "offloader",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:09+00:00",
+        "timestamp": "1775934009",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "65ebff51-3804-4b31-8f30-8cff12244746",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/31eeacebb0a71d0f36d220b7424973d8b679dd94",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "offloader",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:09+00:00",
+        "timestamp": "1775934009",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "41a43f10-1cad-4849-b9fd-b8c040a21683",
+        "value": "knowledgeroad.xyz",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "offloader",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:09+00:00",
+        "timestamp": "1775934009",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "de4589dc-5982-4f51-857b-f4ed0ea20ed6",
+        "value": "silverpull.xyz",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "sectoprat",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:09+00:00",
+        "timestamp": "1775934009",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "77f7355e-2636-4cbc-8b4e-d0d3da0fb094",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/abe63aaa6e54a4a94f8be2300fe2085d30beff26",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "sectoprat",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:09+00:00",
+        "timestamp": "1775934010",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "f3f5887e-80c6-4a0f-8601-d80ae7e94aa9",
+        "value": "188.137.244.159",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "vidar",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:10+00:00",
+        "timestamp": "1775934010",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "2b9282a3-de92-4223-bed9-083b3fc4eb82",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/e7b08f30a6f2f0a92e10d85489e174c6223f1fb5",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "vidar",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:10+00:00",
+        "timestamp": "1775934010",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "e2b77315-d811-4c19-8e25-2ea44e2e980a",
+        "value": "tazarmaan.top",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "tsundere",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:10+00:00",
+        "timestamp": "1775934010",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "c5d1828d-7a3a-4384-b4f0-d8518fc70dff",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/63c5c4e33d581268949684d27ddfe00b7624caf0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "tsundere",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:10+00:00",
+        "timestamp": "1775934011",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "2838ec59-5a90-45a4-8d12-8a6fc80beb94",
+        "value": "perrine90-deltajohnsons.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "teampcp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:11+00:00",
+        "timestamp": "1775934011",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "8cd2baf6-a9c0-435c-b344-523b15b3d3cc",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/60011134ab999ec293ea08e804b7c54c64c065e9",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "teampcp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T19:00:11+00:00",
+        "timestamp": "1775934011",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "fc641512-2409-4d27-97d3-49cff562d111",
+        "value": "https://ctrlaltintel.com/research/ProxyPCP",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "elf_xorddos",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:03+00:00",
+        "timestamp": "1775937604",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "81a0da5b-97bc-4a17-b9bb-3790ad57275a",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/568428673269461a83a40c7421890c3ee529e0f8",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "elf_xorddos",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:04+00:00",
+        "timestamp": "1775937604",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "136f4906-709c-452c-9edb-b078e6d0f3d9",
+        "value": "https://x.com/BreakGlassIntel/status/2042900613143396770",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "elf_xorddos",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:04+00:00",
+        "timestamp": "1775937604",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "e2a9886b-ed25-4d9f-8a07-1a613cc3e0f1",
+        "value": "easyfor.me",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "elf_xorddos",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:04+00:00",
+        "timestamp": "1775937604",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "d8fd3a87-b519-4c40-a86a-11df8bcb6656",
+        "value": "hotemail.asia",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:04+00:00",
+        "timestamp": "1775937604",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "f7967df5-c6bd-48b5-8e83-5fdbcace4317",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/f2968097d334aa5bfefc472d71c8e71762589122",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:04+00:00",
+        "timestamp": "1775937605",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "3e6c2370-9d5f-4073-93ab-706f080755a3",
+        "value": "https://www.virustotal.com/gui/file/6b2e9e457b8468a60b8f84952da717ce9ec7776e20be2b3d4f2b5c4c815c749f/detection",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:05+00:00",
+        "timestamp": "1775937605",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "f9ff53f0-f151-4fb6-8d17-c30d0161f791",
+        "value": "bublgum-term.tv",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:05+00:00",
+        "timestamp": "1775937605",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "c64f743e-df0c-4e71-b28a-26e0a02c989f",
+        "value": "firsttestedddsoft.xyz",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:05+00:00",
+        "timestamp": "1775937605",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "4ea00270-cac3-4750-988b-bb172da29736",
+        "value": "gemini-terminal.cc",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:05+00:00",
+        "timestamp": "1775937605",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "3fa4afa0-b17e-44be-831f-9bb110a09631",
+        "value": "google-services.cc",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:05+00:00",
+        "timestamp": "1775937605",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "6090b10a-c97f-4af4-a375-bf03c50c0032",
+        "value": "testtddd2nd.xyz",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:05+00:00",
+        "timestamp": "1775937605",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "1bf2a83f-61a2-4031-8553-f58a251d2c42",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/0ab787b25b7eace3a07ebfcca7894fdba9944bed",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:06+00:00",
+        "timestamp": "1775937606",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "5ec424cb-694a-45c0-9a76-e48e130e2de7",
+        "value": "https://www.virustotal.com/gui/file/0113a43f937f42fb880df5b3fe2e9326a18e06d7a02c7cfcd4be4ed6b137ef04/detection",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:06+00:00",
+        "timestamp": "1775937606",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "4caeb2d1-47ae-4905-b2c5-6418fd6e72f3",
+        "value": "burning-edge.sbs",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "lummac2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:06+00:00",
+        "timestamp": "1775937606",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "16961a29-4ec1-488f-8268-c814f8a05e3b",
+        "value": "webdriver-select.vg",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:06+00:00",
+        "timestamp": "1775937606",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "b3192b88-edf0-484f-9f3a-51d111f340bd",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/d9191a180fef9d5b8642390f591c5749e037e9f7",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:06+00:00",
+        "timestamp": "1775937606",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "f3bccf3b-f84f-44d9-af13-e6ae42d6c30f",
+        "value": "https://ipinfo.io/AS213438",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:06+00:00",
+        "timestamp": "1775937607",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "b8e913f4-86d0-400c-978f-aa8fc7a01487",
+        "value": "109.236.61.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:07+00:00",
+        "timestamp": "1775937607",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "972c2eb0-513b-4ac0-9cbf-2a47b1f4ec4e",
+        "value": "185.196.220.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:07+00:00",
+        "timestamp": "1775937607",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "487d624d-725f-4523-b107-d3d80ce08122",
+        "value": "192.109.138.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:07+00:00",
+        "timestamp": "1775937607",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "b088589e-1a87-413d-a024-ef9d02966ce8",
+        "value": "193.142.146.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:07+00:00",
+        "timestamp": "1775937607",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "486adbab-0dd2-4106-bdee-182d68025438",
+        "value": "193.142.147.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:07+00:00",
+        "timestamp": "1775937607",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "09d5709a-61c6-4708-84f4-bb5f1a987e32",
+        "value": "31.56.110.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:07+00:00",
+        "timestamp": "1775937608",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "64e21dbe-e550-4a45-a59c-5d5e5928ea1d",
+        "value": "37.60.141.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:08+00:00",
+        "timestamp": "1775937608",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "5c324e8c-8d03-4e8d-9d18-108f113890ce",
+        "value": "45.129.230.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:08+00:00",
+        "timestamp": "1775937608",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "6293a606-1123-4b3a-a53c-72cde4a434ce",
+        "value": "45.134.225.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:08+00:00",
+        "timestamp": "1775937608",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "e3e2a926-8223-4b7d-991a-0cff02bd465e",
+        "value": "5.253.84.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:08+00:00",
+        "timestamp": "1775937608",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "d67a7672-0258-458d-914c-8f62746de0fe",
+        "value": "5.253.86.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:08+00:00",
+        "timestamp": "1775937608",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "16fa822a-0e1a-486a-8e69-5ea3507e5fcb",
+        "value": "50.118.225.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:08+00:00",
+        "timestamp": "1775937608",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "83bcfc9c-4c6e-4930-af50-c07bad56f783",
+        "value": "78.142.18.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:08+00:00",
+        "timestamp": "1775937609",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "03383f1a-fc33-42be-9bf8-0eba419d2796",
+        "value": "78.159.130.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:09+00:00",
+        "timestamp": "1775937609",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "799e9367-2ee2-464d-947f-2b079690e767",
+        "value": "79.124.8.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:09+00:00",
+        "timestamp": "1775937609",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "e9490de1-1734-4f86-abc1-5e89eb3db48e",
+        "value": "85.11.167.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:09+00:00",
+        "timestamp": "1775937609",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "9ea898f0-5e44-45be-b962-2c9085220656",
+        "value": "93.152.219.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "worst_asns",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:09+00:00",
+        "timestamp": "1775937609",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "03945067-90ba-4103-8c84-25b5d42d449b",
+        "value": "94.26.105.0",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:09+00:00",
+        "timestamp": "1775937609",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "7111e267-f06b-49b8-8ae4-6bbdb6c50e9e",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/09f0492f96d3364b7da4e512bfa60988afdfe1b4",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:09+00:00",
+        "timestamp": "1775937610",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "c846e738-94e7-4ddf-b345-df6b09d2a7c1",
+        "value": "login-accounts.dynv6.net",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "apt_kimsuky",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T20:00:10+00:00",
+        "timestamp": "1775937610",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "fa033524-b099-442f-add9-49cbe54b3603",
+        "value": "user-kakao.login-accounts.dynv6.net",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "supershell_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:10+00:00",
+        "timestamp": "1775941210",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "ccfb5971-e4c1-4807-a128-62e9dfb9d408",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/55a9f50aa1475e7a4ceacb03c57d7914bad4e2f5",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "supershell_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:10+00:00",
+        "timestamp": "1775941211",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "a07d2c55-482f-4d20-8d20-0172700f206e",
+        "value": "103.75.117.209",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "supershell_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:11+00:00",
+        "timestamp": "1775941211",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "233220f2-b142-4a11-a72a-838a49bd153c",
+        "value": "114.132.251.233",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "supershell_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:11+00:00",
+        "timestamp": "1775941211",
+        "to_ids": true,
+        "type": "ip-dst",
+        "uuid": "1c4b0ebe-55a7-42de-814e-f6c2a2ca7f14",
+        "value": "134.122.169.42",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "tsundere",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:11+00:00",
+        "timestamp": "1775941211",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "e164800a-fb4f-413a-b60e-bdbb77f45bb7",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/ae427b472b1b9c3014b5320f810d242532850e31",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "tsundere",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:11+00:00",
+        "timestamp": "1775941211",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "e4b1920f-4003-4bd7-b61f-bce140347f6d",
+        "value": "uktaxiservice.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:11+00:00",
+        "timestamp": "1775941211",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "938a6176-17fe-49a4-aa54-4e297a67d9dc",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/90182935277e4b9e88265dbee2636166a54ba27c",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:11+00:00",
+        "timestamp": "1775941212",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "b9e054ec-a928-45c7-872e-e236cf4e5980",
+        "value": "bigtrustdata.cc",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:12+00:00",
+        "timestamp": "1775941212",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "18333d1f-d8b2-4b71-871b-869b0c8f6d35",
+        "value": "hyperdatamesh3.cfd",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:12+00:00",
+        "timestamp": "1775941212",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "a0917471-462e-4830-8c09-fd51fc1ba93f",
+        "value": "hyperdatamesh4.xyz",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:12+00:00",
+        "timestamp": "1775941212",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "7aaaa917-d80b-4d09-8201-3a176b163951",
+        "value": "coughdogs.info",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "osx_atomic",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:12+00:00",
+        "timestamp": "1775941212",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "8fda45ff-b0a3-47c8-9572-677b1edc0ec4",
+        "value": "numbersubstance.info",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "stxrat",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:12+00:00",
+        "timestamp": "1775941212",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "afe9bd81-d8a1-4aca-b4cf-6a9b807227ee",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/3d009657fc4070ec0e8a760dc811157e50ad8761",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "stxrat",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:12+00:00",
+        "timestamp": "1775941212",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "f35dc493-c3e7-487c-a833-7e238269deef",
+        "value": "cdn0v3.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "stxrat",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:13+00:00",
+        "timestamp": "1775941213",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "b9562637-0eed-4c7f-9b87-41e2fbcb8a81",
+        "value": "supp0v5.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "stxrat",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:13+00:00",
+        "timestamp": "1775941213",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "f1b698c0-c761-4198-8778-9794313b114d",
+        "value": "api.cdn0v3.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "stxrat",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T21:00:13+00:00",
+        "timestamp": "1775941213",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "6c14a566-0819-4d8c-a967-04442eb81693",
+        "value": "sw.supp0v5.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "hak5cloud_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:03+00:00",
+        "timestamp": "1775944805",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "0d5e145f-347a-4fa8-b316-7a4504202db3",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/2e128316ca201230ca5604a6bcb43d6131c98d0f",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "hak5cloud_c2",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:05+00:00",
+        "timestamp": "1775944806",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "aee679e6-f975-44a3-9794-0eaa42f427fd",
+        "value": "a.loaagouda.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:06+00:00",
+        "timestamp": "1775944806",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "7db985cb-f148-40bd-b2bf-8d7c54cb7f70",
+        "value": "https://api.github.com/repos/stamparm/maltrail/commits/e7ad29f0cb71df4ebdbe2dda51357d87e857b59c",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:06+00:00",
+        "timestamp": "1775944806",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "8ae4b986-ce43-4426-88b2-72f9dc092b31",
+        "value": "roundtwosolutions.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:06+00:00",
+        "timestamp": "1775944806",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "2c43820f-72ed-463a-86ea-adfe2225531a",
+        "value": "bytytxkz.icu",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:06+00:00",
+        "timestamp": "1775944806",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "28e9ad38-829e-40ac-ab12-7ac3e4888dd5",
+        "value": "dqzooska.icu",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:06+00:00",
+        "timestamp": "1775944806",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "89335dd5-fd71-4ad1-8598-bb7eee5afc2f",
+        "value": "jdxbrlie.icu",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:06+00:00",
+        "timestamp": "1775944807",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "e55f2ef8-5a43-464a-8095-a86d3fa48cd2",
+        "value": "osqhvux.icu",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:07+00:00",
+        "timestamp": "1775944807",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "c5c9a920-d25f-48f6-92f1-d6a5fff50775",
+        "value": "powdikk.icu",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:07+00:00",
+        "timestamp": "1775944807",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "88669639-2459-4315-95f8-31ea7f4aed4b",
+        "value": "vslwticp.icu",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:07+00:00",
+        "timestamp": "1775944807",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "b3e5bc95-d951-451b-bf7a-c5bff2bd1790",
+        "value": "ziakgop.icu",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:07+00:00",
+        "timestamp": "1775944807",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "df4407bb-1eb3-46be-8002-b6222acee52e",
+        "value": "annaionovna.com",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:07+00:00",
+        "timestamp": "1775944807",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "a2e6af2c-dff0-40ea-8c46-95792fbeccc3",
+        "value": "9n.ta-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:07+00:00",
+        "timestamp": "1775944808",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "306d15ed-7e15-4fc4-86da-ddc7e7fc36c3",
+        "value": "akqvr-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:08+00:00",
+        "timestamp": "1775944808",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "06002892-6fc5-4e0f-93dd-9d97c6423e81",
+        "value": "asdfg-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:08+00:00",
+        "timestamp": "1775944808",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "b1635179-1d92-464b-a306-65ad09512b97",
+        "value": "bhtyw-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:08+00:00",
+        "timestamp": "1775944808",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "f2a37c27-2c68-46e6-a610-49b0486fb77d",
+        "value": "dq.wxy-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:08+00:00",
+        "timestamp": "1775944808",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "b55ba039-8bb8-42e6-93c6-f35b3b370de3",
+        "value": "ecrnp-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:08+00:00",
+        "timestamp": "1775944808",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "1d6bf43a-dc3c-440d-8e1b-554e21efd2dc",
+        "value": "fjhsc-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:09+00:00",
+        "timestamp": "1775944809",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "6b84d472-2057-4356-883c-5e05eb483f5b",
+        "value": "ghtrv-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:09+00:00",
+        "timestamp": "1775944809",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "8375879b-61de-4390-b6be-a5da56ee5bea",
+        "value": "klpqz-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:09+00:00",
+        "timestamp": "1775944809",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "0cba9755-fe7e-4aa0-bd10-c4d411f36e99",
+        "value": "lmqtp-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:09+00:00",
+        "timestamp": "1775944809",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "b4b55614-fee6-488d-9ce3-8089c30db306",
+        "value": "nhyuj-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:09+00:00",
+        "timestamp": "1775944809",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "240c915c-4d08-44f8-8d7b-6c67900fad37",
+        "value": "ptmxr-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:09+00:00",
+        "timestamp": "1775944810",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "ad2bad7d-e7ab-45bf-868d-66d9f22cc9c4",
+        "value": "pzwlc-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:10+00:00",
+        "timestamp": "1775944810",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "42c8655c-bbfb-48b3-a374-e9dc5fa1da73",
+        "value": "qmtpr-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:10+00:00",
+        "timestamp": "1775944810",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "a5992cff-37ce-4abb-8708-29db58e03e1a",
+        "value": "rmxqp-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:10+00:00",
+        "timestamp": "1775944810",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "81044cc3-1fb2-41dc-bf79-a751bcf9f127",
+        "value": "rwmtp-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:10+00:00",
+        "timestamp": "1775944810",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "aabf9ae3-0c86-4caf-9449-eeab1b5a88f3",
+        "value": "uhgxb-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:10+00:00",
+        "timestamp": "1775944810",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "9a22ce94-48e6-492e-9cfb-70c6f990f473",
+        "value": "uytre-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:10+00:00",
+        "timestamp": "1775944810",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "2dbc793e-3591-4562-bb9a-5d1785e5cc94",
+        "value": "vbqxp-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:11+00:00",
+        "timestamp": "1775944811",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "f844cd2c-f60a-4e4f-9a35-eb9a1f0081d9",
+        "value": "vbqzt-whatsapp.com.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:11+00:00",
+        "timestamp": "1775944811",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "25ee99e6-3875-4ff7-ad75-84435b527cda",
+        "value": "vnrsd-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:11+00:00",
+        "timestamp": "1775944811",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "7ae22f20-66ce-4b01-9df9-e2b8a44703be",
+        "value": "vtxpr-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:11+00:00",
+        "timestamp": "1775944811",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "518b6501-18d7-45c3-ae20-98ef3093307c",
+        "value": "wqmtp-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:11+00:00",
+        "timestamp": "1775944811",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "c0355406-0ab5-45b3-b65e-bd28d834b7b1",
+        "value": "xedcr-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:11+00:00",
+        "timestamp": "1775944811",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "dd582a81-709b-47e5-876c-71a0cab3a5fe",
+        "value": "ydpvn-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "comment": "fakeapp",
+        "deleted": false,
+        "disable_correlation": false,
+        "last_seen": "2026-04-11T22:00:11+00:00",
+        "timestamp": "1775944812",
+        "to_ids": true,
+        "type": "domain",
+        "uuid": "1ced3f21-d276-4812-a910-ccab94c5c644",
+        "value": "ytmpr-whatsapp.hl.cn",
+        "Tag": [
+          {
+            "colour": "#00833c",
+            "local": false,
+            "name": "misp:threat-level=\"medium-risk\"",
+            "relationship_type": ""
+          },
+          {
+            "colour": "#004646",
+            "local": false,
+            "name": "type:OSINT",
+            "relationship_type": ""
+          }
+        ]
+      }
+    ]
+  }
+}

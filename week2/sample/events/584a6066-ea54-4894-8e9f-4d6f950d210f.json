@@ -1,0 +1,182 @@
+{
+  "Event": {
+    "analysis": "2",
+    "date": "2016-12-08",
+    "extends_uuid": "",
+    "info": "OSINT - New Scheme: Spread Popcorn Time Ransomware, get chance of free Decryption Key",
+    "publish_timestamp": "1481541031",
+    "published": true,
+    "threat_level_id": "3",
+    "timestamp": "1481539703",
+    "uuid": "584a6066-ea54-4894-8e9f-4d6f950d210f",
+    "Orgc": {
+      "name": "CIRCL",
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "local": false,
+        "name": "type:OSINT",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:white",
+        "relationship_type": ""
+      },
+      {
+        "colour": "#2b4d00",
+        "local": false,
+        "name": "malware_classification:malware-category=\"Ransomware\"",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481269371",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "584a607b-50a8-46d5-b348-467f950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/new-scheme-spread-popcorn-time-ransomware-get-chance-of-free-decryption-key/"
+      },
+      {
+        "category": "External analysis",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481269391",
+        "to_ids": false,
+        "type": "comment",
+        "uuid": "584a608f-74e8-4a52-9211-49be950d210f",
+        "value": "Yesterday a new in-development ransomware was discovered by MalwareHunterTeam called Popcorn Time that intends to give victim's a very unusual, and criminal, way of getting a free decryption key for their files.  With Popcorn Time, not only can a victim pay a ransom to get their files back, but they can also try to infect two other people and have them pay the ransom in order to get a free key.\r\n\r\nTo make matters worse, there is unfinished code in the ransomware that may indicate that if a user enters the wrong decryption key 4 times, the ransomware will start deleting files.\r\n\r\nIt should be noted, that this ransomware is not related to the Popcorn Time application that downloads and streams copyrighted movies."
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481269494",
+        "to_ids": true,
+        "type": "filename",
+        "uuid": "584a60f6-ab68-4448-88d6-4d3a950d210f",
+        "value": "restore_your_files.html"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481269494",
+        "to_ids": true,
+        "type": "filename",
+        "uuid": "584a60f6-4018-46ce-88f3-4b78950d210f",
+        "value": "restore_your_files.txt"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481269495",
+        "to_ids": true,
+        "type": "filename",
+        "uuid": "584a60f7-1514-40df-9d86-4494950d210f",
+        "value": "popcorn_time.exe"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481269495",
+        "to_ids": true,
+        "type": "url",
+        "uuid": "584a60f7-f134-4066-afe2-4bc9950d210f",
+        "value": "https://3hnuhydu4pd247qb.onion.to"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481269496",
+        "to_ids": true,
+        "type": "url",
+        "uuid": "584a60f8-94dc-4a12-89e7-4fba950d210f",
+        "value": "http://popcorn-time-free.net"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481269496",
+        "to_ids": true,
+        "type": "sha256",
+        "uuid": "584a60f8-3a98-4de1-b38a-42b0950d210f",
+        "value": "fd370e998215667c31ae1ac6ee81223732d7c7e7f44dc9523f2517adffa58d51"
+      },
+      {
+        "category": "Persistence mechanism",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481269529",
+        "to_ids": true,
+        "type": "regkey|value",
+        "uuid": "584a6119-5538-4879-a2fd-4db0950d210f",
+        "value": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run|\"Popcorn_Time\" [path_to]\\popcorn_time.exe"
+      },
+      {
+        "category": "Network activity",
+        "comment": "",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481539584",
+        "to_ids": false,
+        "type": "url",
+        "uuid": "584e8000-31e4-4d83-a1cd-42f8950d210f",
+        "value": "https://3hnuhydu4pd247qb.onion"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "- Xchecked via VT: fd370e998215667c31ae1ac6ee81223732d7c7e7f44dc9523f2517adffa58d51",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481539703",
+        "to_ids": true,
+        "type": "sha1",
+        "uuid": "584e8077-23fc-4955-951f-4f2102de0b81",
+        "value": "bf341c440f6e8a3b1eae49fdc480d488a48778a2"
+      },
+      {
+        "category": "Payload delivery",
+        "comment": "- Xchecked via VT: fd370e998215667c31ae1ac6ee81223732d7c7e7f44dc9523f2517adffa58d51",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481539703",
+        "to_ids": true,
+        "type": "md5",
+        "uuid": "584e8077-cd94-45f7-9b90-4fcd02de0b81",
+        "value": "a0fdaf733314a120d9db7617a586f1b4"
+      },
+      {
+        "category": "External analysis",
+        "comment": "- Xchecked via VT: fd370e998215667c31ae1ac6ee81223732d7c7e7f44dc9523f2517adffa58d51",
+        "deleted": false,
+        "disable_correlation": false,
+        "timestamp": "1481539704",
+        "to_ids": false,
+        "type": "link",
+        "uuid": "584e8078-7028-4fe6-baa2-4c1c02de0b81",
+        "value": "https://www.virustotal.com/file/fd370e998215667c31ae1ac6ee81223732d7c7e7f44dc9523f2517adffa58d51/analysis/1481283166/"
+      }
+    ]
+  }
+}
