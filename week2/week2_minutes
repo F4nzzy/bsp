@@ -1,0 +1,21 @@
+1. Progress since last meeting
+    • Grabbed 10 samples 
+    • Created the initial pipeline using a local model
+    • The model classifies them somewhat well
+
+2. Discussion
+    • The sample size is a bit small and the JSONs are not very informative
+    • Ask model how it gets confidence
+    • Maybe use a larger model to validate the results (claude or chatgpt) 
+    • Show the results better, statistics table? 
+    
+3. What to do for next meeting
+    • Get more and better JSONs, check the new ones against qwen. Then get a better model to check the correctness.
+    • Read and potentially use the Laya model to classify.
+    • Manually classify, claude classify and qwen classify -> then make a table 
+
+
+
+
+
+next meeting: next Thursday 2pm 

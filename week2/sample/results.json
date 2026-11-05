@@ -33,7 +33,7 @@
         {
           "sector": "Not sector-specific",
           "confidence": 0.7,
-          "evidence": "The threat intelligence report does not specify any particular industry sector as the target of the cyber threat group TG-3390 / Emissary Panda."
+          "evidence": "The threat intelligence event does not specify any particular industry sector as the target. It only mentions a threat group (TG-3390 / Emissary Panda) that engages in OSINT activities."
         }
       ]
     }
@@ -46,7 +46,7 @@
         {
           "sector": "Financials",
           "confidence": 0.8,
-          "evidence": "The Central Bank of Armenia is a financial institution, which falls under the Financials sector."
+          "evidence": "Central Bank of Armenia employees are targeted, which falls under the Financials sector as central banks are financial institutions."
         }
       ]
     }
@@ -59,7 +59,7 @@
         {
           "sector": "Not sector-specific",
           "confidence": 0.7,
-          "evidence": "The advisory does not specify any particular industry sector as the target of the threat."
+          "evidence": "The threat advisory does not specify any particular industry sector as the target."
         }
       ]
     }
@@ -72,17 +72,17 @@
         {
           "sector": "Information Technology",
           "confidence": 0.8,
-          "evidence": "Petya Ransomware typically targets IT infrastructure and systems, making the Information Technology sector the most likely target."
+          "evidence": "Petya Ransomware typically targets IT systems and infrastructure, making the Information Technology sector the most likely target."
         },
         {
           "sector": "Consumer Discretionary",
           "confidence": 0.3,
-          "evidence": "Retail and other consumer-facing businesses may also be targeted due to their reliance on IT systems."
+          "evidence": "Retail and other consumer-facing businesses may also be targeted due to their IT systems."
         },
         {
           "sector": "Not sector-specific",
           "confidence": 0.1,
-          "evidence": "While the ransomware can affect any sector, the specific information provided does not point to a particular industry sector."
+          "evidence": "The description does not provide specific industry details."
         }
       ]
     }
@@ -95,7 +95,7 @@
         {
           "sector": "Not sector-specific",
           "confidence": 0.7,
-          "evidence": "The description mentions a malware campaign targeting users with a 'Your Order' theme, which could apply to any sector as it is a generic phishing attempt."
+          "evidence": "The description mentions 'malspam' and a campaign title, but does not specify any particular industry sector."
         }
       ]
     }
@@ -107,7 +107,7 @@
       "sectors": [
         {
           "sector": "Not sector-specific",
-          "confidence": 0.8,
+          "confidence": 0.7,
           "evidence": "The ransomware does not target any specific industry sector as it can potentially affect any individual or organization that uses computers."
         }
       ]
@@ -134,7 +134,7 @@
         {
           "sector": "Not sector-specific",
           "confidence": 0.7,
-          "evidence": "The description does not specify any particular industry sector, as the threat involves email and fake browser updates which can target any sector."
+          "evidence": "The description does not specify any particular industry sector. The threat involves email and fake browser updates, which could target any sector."
         }
       ]
     }
