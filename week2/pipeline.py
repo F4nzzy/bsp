@@ -39,11 +39,12 @@ def classify(text):
     return json.loads(r.json()["message"]["content"])
 
 
-results = []
-for path in sorted((SAMPLE / "events").glob("*.json")):
-    text = shrink(json.loads(path.read_text()))
-    answer = classify(text)
-    results.append({"file": path.name, "input": text, "output": answer})
-    print(text.splitlines()[0], "->", answer)
+if __name__ == "__main__":
+    results = []
+    for path in sorted((SAMPLE / "events").glob("*.json")):
+        text = shrink(json.loads(path.read_text()))
+        answer = classify(text)
+        results.append({"file": path.name, "input": text, "output": answer})
+        print(text.splitlines()[0], "->", answer)
 
-(SAMPLE / "results.json").write_text(json.dumps(results, indent=2))
+    (SAMPLE / "results.json").write_text(json.dumps(results, indent=2))
