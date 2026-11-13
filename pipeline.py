@@ -1,9 +1,7 @@
 import requests, json
 from pathlib import Path
 
-SAMPLE = Path(__file__).parent / "sample"
-
-        # Only take the main category ###################################
+SAMPLE = Path(__file__).parent / "week2_sample"
 
 PROMPT = """You classify cyber threat intelligence events by the industry sector of the victims they target.
 GICS sectors (with examples):
@@ -18,8 +16,8 @@ GICS sectors (with examples):
 - Communication Services: telecoms, media, internet platforms, gaming
 - Utilities: electricity, water, gas distribution
 - Real Estate: property companies, REITs
-Several sectors are allowed. Answer "Not sector-specific" if nothing in the text points to an industry.
-Reply in JSON: {"sectors": [{"sector": ..., "confidence": 0-1, "evidence": ...}]}"""
+Give only the ONE main sector of the victims. Answer "Not sector-specific" if nothing in the text points to an industry.
+Reply in JSON with exactly one entry: {"sectors": [{"sector": ..., "confidence": 0-1, "evidence": ...}]}"""
 
 
 def shrink(event):

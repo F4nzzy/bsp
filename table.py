@@ -14,7 +14,7 @@ for row in csv.DictReader(open(labels, encoding="utf-8")):
     if row["manual"].strip():
         results[row["uuid"]]["manual"] = {"sectors": [{"sector": s.strip()} for s in row["manual"].split(";")]}
 
-models = [m for m in ("manual", "qwen", "claude", "laya") if any(m in r for r in results.values())]
+models = [m for m in ("manual", "qwen", "claude", "laya", "laya_choice", "vote") if any(m in r for r in results.values())]
 get = lambda r, m: {s["sector"] for s in r[m]["sectors"]} - {"Not sector-specific"}
 
 

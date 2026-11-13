@@ -1,288 +1,223 @@
 {
   "0420f1c3-4b8d-4875-854e-5cb5f02408ca": {
     "title": "OSINT - Major Payment Disruption: Ransomware Strikes Indian Banking Infrastructure",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Financials",
-          "confidence": 0.95,
-          "evidence": "tags misp-galaxy:sector=\"Bank\"/\"Finance\"; title \"Indian Banking Infrastructure\""
+          "sector": "Information Technology",
+          "confidence": 0.94
         }
-      ],
-      "confidence_basis": "Analyst sector tags and the text say the same thing, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "The tags include 'misp-galaxy:sector="
+          "confidence": 1,
+          "evidence": "The tags include 'misp-galaxy:sector=",
+          "Bank": {},
+          "Finance": {},
+          "' and 'circl:incident-classification=": "ransomware"
         }
       ]
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.989
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.934
-        },
-        {
           "sector": "Financials",
           "confidence": 1.0
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.999
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.95,
+          "evidence": "Title describes a ransomware attack on 'Indian Banking Infrastructure' causing 'Major Payment Disruption'; tags include sector=\"Bank\", sector=\"Finance\", and circl:topic=\"finance\"."
+        }
+      ],
+      "confidence_basis": "High confidence because the title and several independent tags all point clearly to banking and payments, which belong to Financials. The confidence is a bit below 1 because the description is empty and the OSINT certainty tag is only 50."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "10a94632-a0a1-4062-a3a5-95fe321ae045": {
     "title": "Phishing Campaign Targeting Hotel Customers in Luxembourg",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.9,
-          "evidence": "tags sector=\"Hospitality\"/\"Hotels\"; title \"Hotel Customers\""
+          "sector": "Information Technology",
+          "confidence": 0.94
         }
-      ],
-      "confidence_basis": "Analyst sector tags and the text say the same thing, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Consumer Discretionary",
           "confidence": 1,
-          "evidence": "The tags include 'misp-galaxy:sector=\"Hotels\"' and 'misp-galaxy:sector=\"Hospitality\"', which are directly related to the Consumer Discretionary sector, specifically hotels and related services."
+          "evidence": "The victims are hotel customers, which falls under the Consumer Discretionary sector as it includes hotels."
         }
       ],
-      "confidence_basis": "The tags explicitly mention the Consumer Discretionary sector, specifically hotels and related services, which is a clear indication of the targeted industry."
+      "confidence_basis": "The tags explicitly mention 'misp-galaxy:sector="
     },
     "laya": {
       "sectors": [
         {
           "sector": "Energy",
           "confidence": 1.0
-        },
-        {
-          "sector": "Materials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Financials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 1.0
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Consumer Discretionary",
+          "confidence": 0.9,
+          "evidence": "Title says the phishing campaign targets 'Hotel Customers in Luxembourg', and the tags misp-galaxy:sector=\"Hospitality\" and \"Hotels\" also point to hotels, which fall under Consumer Discretionary (hotels, restaurants)."
+        }
+      ],
+      "confidence_basis": "High confidence because both the title and the sector tags name hotels/hospitality, which maps straight to Consumer Discretionary. It is not higher because the description is empty, the direct victims are hotel customers (consumers) rather than the hotels themselves, and the financial-fraud tags suggest a minor Financials angle."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Consumer Discretionary"
+        }
+      ],
+      "votes": {
+        "claude": "Consumer Discretionary",
+        "qwen": "Consumer Discretionary",
+        "laya": "Energy",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "1cccd5d8-5d52-4610-b8b7-7bbebd0d6d7b": {
     "title": "OSINT - Unraveling SloppyLemming\u2019s Operations Across South Asia",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.8,
-          "evidence": "tag sector=\"Energy\""
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.8,
-          "evidence": "tag sector=\"Telecoms\""
-        },
-        {
           "sector": "Information Technology",
-          "confidence": 0.6,
-          "evidence": "tag sector=\"Technology\" (vague)"
+          "confidence": 0.982
         }
-      ],
-      "confidence_basis": "Sector tags only, no description; 'Technology' is vague so lower.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Energy",
           "confidence": 0.8,
-          "evidence": "The threat actor SloppyLemming has been observed targeting energy sectors across South Asia."
-        },
-        {
-          "sector": "Telecoms",
-          "confidence": 0.7,
-          "evidence": "Indications of attacks on telecoms infrastructure in the region."
-        },
-        {
-          "sector": "Technology",
-          "confidence": 0.9,
-          "evidence": "The threat actor is known to target technology-related entities."
-        },
-        {
-          "sector": "Police - Law enforcement",
-          "confidence": 0.5,
-          "evidence": "Some operations may involve law enforcement entities, though this is less clear from the provided information."
+          "evidence": "SloppyLemming targeted Energy sector entities in South Asia."
         }
       ],
-      "confidence_basis": "Based on the tags provided, the energy sector has the highest confidence as it is explicitly mentioned. Telecoms and technology sectors are also strongly implied. Law enforcement is less certain but still relevant given the nature of the threat actor."
+      "confidence_basis": "Based on the tags provided, the threat actor targeted the Energy sector with the highest confidence, followed by Telecoms and Technology sectors. The remaining confidence is distributed among other sectors and a non-specific category due to the lack of clear industry focus."
     },
     "laya": {
-      "sectors": []
+      "sectors": [
+        {
+          "sector": "Not sector-specific",
+          "confidence": 0.351
+        }
+      ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Energy",
+          "confidence": 0.4,
+          "evidence": "The tags list sector=\"Energy\" alongside Telecoms, Technology and Police - Law enforcement. Law enforcement is government and has no GICS sector, so Energy is the most prominent GICS-mappable victim sector among the tagged ones."
+        }
+      ],
+      "confidence_basis": "The description is empty, so this rests only on the MISP sector tags. Four sectors are tagged with no stated priority, and two other GICS candidates compete with Energy: Communication Services (Telecoms) and Information Technology (Technology). The primary victims appear to be government and law enforcement, which fall outside GICS. That keeps confidence below 0.5."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Energy"
+        }
+      ],
+      "votes": {
+        "claude": "Energy",
+        "qwen": "Energy",
+        "laya": "Not sector-specific",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "56e27748-1864-476a-9c1c-4d10950d210f": {
     "title": "OSINT - Android banking trojan masquerades as Flash Player and bypasses 2FA",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "targets customers of large banks, steals mobile banking logins"
+          "sector": "Information Technology",
+          "confidence": 0.903
         }
-      ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
           "confidence": 0.9,
-          "evidence": "The malware targets customers of large banks in Australia, New Zealand and Turkey, which are part of the Financials sector."
-        },
-        {
-          "sector": "Not sector-specific",
-          "confidence": 0.1,
-          "evidence": "While the threat is specific to banks, the description does not provide enough information to confidently assign it to a specific sector beyond Financials."
+          "evidence": "The malware targets customers of large banks in Australia, New Zealand and Turkey."
         }
       ],
-      "confidence_basis": "The primary targets of the malware are banks, which fall under the Financials sector. However, the description does not provide enough context to definitively exclude other sectors, hence the low confidence for 'Not sector-specific'."
+      "confidence_basis": "The description explicitly mentions banks as the targets, which aligns with the Financials sector."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.913
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.87
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.899
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.966
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.845
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.883
-        },
-        {
           "sector": "Financials",
           "confidence": 0.996
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.977
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.99
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.849
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.987
         }
       ]
-    }
-  },
-  "571de51c-4f04-491f-b34a-4567950d210f": {
-    "title": "OSINT - TWO BYTES TO $951M (SWIFT payment system abuse)",
+    },
     "claude": {
       "sectors": [
         {
           "sector": "Financials",
           "confidence": 0.95,
-          "evidence": "Bangladesh Bank SWIFT payment system abused"
+          "evidence": "The Android banking trojan (Android/Spy.Agent.SI) goes after customers of the largest banks in Australia, New Zealand and Turkey. It steals login credentials from 20 mobile banking apps and gets around SMS-based 2FA. The topic tag is also 'finance'."
         }
       ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      "confidence_basis": "High confidence because the text says outright that the victims are bank customers and that the malware targets banking apps. Banks fall under the Financials sector. The 'finance' tag points the same way."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
+    }
+  },
+  "571de51c-4f04-491f-b34a-4567950d210f": {
+    "title": "OSINT - TWO BYTES TO $951M (SWIFT payment system abuse)",
+    "laya_choice": {
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "confidence": 0.986
+        }
+      ]
     },
     "qwen": {
       "sectors": [
@@ -290,509 +225,363 @@
           "sector": "Financials",
           "confidence": 0.9,
           "evidence": "The attack targeted the Bangladesh Bank's SWIFT payment system, which is a critical component of financial infrastructure."
-        },
-        {
-          "sector": "Not sector-specific",
-          "confidence": 0.3,
-          "evidence": "While the attack primarily affected the financial sector, the malware could potentially be used in other sectors with similar payment systems."
         }
       ],
-      "confidence_basis": "The primary evidence for the Financials sector is the direct targeting of a financial institution's payment system. The malware's potential use in other sectors is less certain and based on the technical capabilities described."
+      "confidence_basis": "The description clearly indicates that the attack was on a financial institution, making the Financials sector the most likely target."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.632
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.713
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.847
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.861
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.887
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.656
-        },
-        {
           "sector": "Financials",
           "confidence": 0.987
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.899
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.941
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.823
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.948
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.97,
+          "evidence": "The victim is Bangladesh Bank, a central bank. Attackers abused its SWIFT payment system and SWIFT Alliance Access software to send forged payment instructions to an American bank. The tag circl:topic=\"finance\" also points to this sector."
+        }
+      ],
+      "confidence_basis": "The text names a central bank as the victim and describes attacks on banking payment infrastructure (SWIFT), which maps directly to Financials. Confidence is near-certain because no other sector is suggested."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "5743f37c-c11c-426d-843b-4d83950d210f": {
     "title": "OSINT - Targeted Attacks against Banks in the Middle East",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Financials",
-          "confidence": 0.95,
-          "evidence": "emails sent to multiple banks in the Middle East"
+          "sector": "Information Technology",
+          "confidence": 0.881
         }
-      ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "The attacks targeted multiple banks in the Middle East region, which are part of the Financials sector."
+          "confidence": 1,
+          "evidence": "The victims of the targeted attacks are multiple banks in the Middle East region."
         }
       ],
-      "confidence_basis": "The description explicitly mentions that the attacks were targeting banks, which are clearly defined in the GICS sectors as part of the Financials category."
+      "confidence_basis": "The description explicitly mentions that the attacks targeted banks, which falls under the Financials sector according to GICS classification."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.968
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.908
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.971
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.977
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.979
-        },
-        {
           "sector": "Financials",
           "confidence": 0.991
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.977
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.967
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.938
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.981
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.95,
+          "evidence": "The title and description say the emails went to 'multiple banks in the Middle East region' and to 'employees working in the banking sector'. The tag circl:topic=\"finance\" points the same way."
+        }
+      ],
+      "confidence_basis": "Confidence is high because the text names the victims directly and more than once as banks/banking sector employees. Banks are an explicit example under Financials. The IT-infrastructure lure themes, like Server Status Report and Cisco IronPort, describe the bait and not who was targeted, so they don't weaken the classification."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "57721a0d-8c48-47a5-86d4-458c950d210f": {
     "title": "OSINT - Retefe banking Trojan targets UK banking customers",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "targets UK banking customers"
+          "sector": "Information Technology",
+          "confidence": 0.509
         }
-      ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "The Retefe banking Trojan targets banking customers, which are primarily financial institutions or individuals using financial services."
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.7,
-          "evidence": "The use of a Trojan and JavaScript to trick users into giving up their credentials involves IT security and services."
+          "confidence": 1,
+          "evidence": "The Retefe banking Trojan targets banking customers, which falls under the Financials sector."
         }
       ],
-      "confidence_basis": "The primary target of the Retefe banking Trojan is financial services, as indicated by the description of the victims being banking customers. The involvement of IT in delivering the attack is also noted, though to a lesser extent."
+      "confidence_basis": "The description explicitly mentions that the Trojan targets banking customers, which is a clear indicator of the Financials sector."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.983
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.97
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.993
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.995
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.876
-        },
-        {
           "sector": "Financials",
           "confidence": 0.998
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.996
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.98
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.995
         }
       ]
-    }
-  },
-  "57c405cd-ab54-47b8-9eff-7a52950d210f": {
-    "title": "OSINT - Dridex Returns To Action For Smaller, More Targeted Attacks",
-    "claude": {
-      "sectors": [
-        {
-          "sector": "Financials",
-          "confidence": 0.85,
-          "evidence": "banking trojan; target list is online-banking and payment software"
-        }
-      ],
-      "confidence_basis": "Inferred from the banking target list, not an explicit victim statement.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
     },
-    "qwen": {
-      "sectors": [
-        {
-          "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "The malware Dridex is targeting financial institutions and services, as evidenced by the presence of numerous banking and financial-related tools and services in the tags and description."
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.7,
-          "evidence": "The presence of various IT-related tools and services in the tags and description, such as Bitcoin-related software and payment processing systems."
-        }
-      ],
-      "confidence_basis": "The description and tags clearly indicate that the malware targets financial institutions and services, as well as IT-related tools and services, making these the most likely sectors."
-    },
-    "laya": {
-      "sectors": [
-        {
-          "sector": "Energy",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Financials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.999
-        }
-      ]
-    }
-  },
-  "57fddaac-da34-43f7-8844-4430950d210f": {
-    "title": "OSINT - Odinaff: New Trojan used in high level financial attacks",
     "claude": {
       "sectors": [
         {
           "sector": "Financials",
           "confidence": 0.95,
-          "evidence": "targets banking, securities, trading and payroll organisations"
+          "evidence": "Retefe is a banking Trojan aimed at UK banking customers, using fake certificates to steal login credentials. The event is tagged circl:topic=\"finance\"."
         }
       ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      "confidence_basis": "High confidence because the text explicitly names banking customers as the victims and the tag says finance. It is slightly below 1 because the direct victims are individual bank customers rather than the banks, though the attack targets the banking sector."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
+    }
+  },
+  "57c405cd-ab54-47b8-9eff-7a52950d210f": {
+    "title": "OSINT - Dridex Returns To Action For Smaller, More Targeted Attacks",
+    "laya_choice": {
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "confidence": 0.98
+        }
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
           "confidence": 0.9,
-          "evidence": "The description explicitly mentions that the attacks target financial organizations, including banking, securities, trading, and payroll sectors."
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.7,
-          "evidence": "The attacks involve the deployment of custom malware and backdoors, which suggests involvement of IT services and infrastructure."
+          "evidence": "The malware Dridex is targeting financial institutions and services as evidenced by the presence of numerous banking and financial-related tools and services in the list of targeted applications."
         }
       ],
-      "confidence_basis": "The description clearly states that the attacks are targeting financial organizations, which is the primary sector, and also involves IT services for the deployment of malware, hence the secondary sector."
+      "confidence_basis": "The list of targeted applications and services strongly indicates that the victims are primarily in the financial sector, including banking, online banking, and cryptocurrency exchanges."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.995
-        },
+          "sector": "Information Technology",
+          "confidence": 1.0
+        }
+      ]
+    },
+    "claude": {
+      "sectors": [
         {
-          "sector": "Materials",
-          "confidence": 0.994
-        },
+          "sector": "Financials",
+          "confidence": 0.93,
+          "evidence": "Dridex is a banking trojan, and the event carries the circl:topic=\"finance\" tag. Its target list names online banking and corporate payment software (EBICS, MultiCash, StarMoney, SFIRM, BancLine, Migros Bank, telebanking, Bacs payment clients) along with cryptocurrency wallets and exchanges (Coinbase, Electrum, Trezor, Ledger Nano, Xapo). This shows it goes after banking customers and financial transactions."
+        }
+      ],
+      "confidence_basis": "Confidence is high because several independent signals agree: the malware family is a well-known banking trojan, the event has an explicit finance topic tag, and the targeted process/keyword list is mostly banking, payment and crypto wallet software. It is not set higher because the victims include corporate treasury users across many industries and some POS terminals, so the targets are not only financial-sector institutions."
+    },
+    "vote": {
+      "sectors": [
         {
-          "sector": "Industrials",
-          "confidence": 0.997
-        },
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Information Technology",
+        "laya_choice": "Information Technology"
+      }
+    }
+  },
+  "57fddaac-da34-43f7-8844-4430950d210f": {
+    "title": "OSINT - Odinaff: New Trojan used in high level financial attacks",
+    "laya_choice": {
+      "sectors": [
         {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.995
-        },
+          "sector": "Information Technology",
+          "confidence": 0.564
+        }
+      ]
+    },
+    "qwen": {
+      "sectors": [
         {
-          "sector": "Consumer Staples",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.992
-        },
+          "sector": "Financials",
+          "confidence": 0.9,
+          "evidence": "The description explicitly mentions that the attacks target financial organizations and support services to these industries."
+        }
+      ],
+      "confidence_basis": "The text clearly states that the attacks are targeting financial organizations and related support services, which aligns with the Financials sector in GICS."
+    },
+    "laya": {
+      "sectors": [
         {
           "sector": "Financials",
           "confidence": 0.998
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.995
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.95,
+          "evidence": "Odinaff campaigns target 'financial organizations worldwide' and focus on the 'banking, securities, trading, and payroll sectors'. They are linked to Carbanak, an attacker that 'has plagued the financial industry', and the text mentions attacks on banks. The tags include circl:topic=\"finance\"."
+        }
+      ],
+      "confidence_basis": "Very high confidence because the description names banks, securities, and trading firms as the targets, and the finance topic tag agrees. It is slightly below 1 because the text says organizations that provide support services to these industries (which could include IT services providers) are also of interest."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "582c134f-c358-455c-935e-4598950d210f": {
     "title": "OSINT - New Carbanak / Anunak Attack Methodology",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.9,
-          "evidence": "victims were two hospitality clients and a restaurant chain"
+          "sector": "Information Technology",
+          "confidence": 0.924
         }
-      ],
-      "confidence_basis": "Text names hospitality victims; the finance tag is about Carbanak's history, so ignored.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Consumer Discretionary",
           "confidence": 0.8,
-          "evidence": "The hospitality industry and restaurant chain are mentioned as victims."
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.6,
-          "evidence": "The description mentions the theft of over one billion dollars from banks, and the attack on the Oracle Micros POS support site, which is related to financial institutions."
+          "evidence": "The victims are hospitality clients and a restaurant chain, which fall under the Consumer Discretionary sector."
         }
       ],
-      "confidence_basis": "The evidence provided in the description points to both the hospitality and restaurant sectors, which fall under Consumer Discretionary, and financial institutions, which fall under Financials. The confidence is moderate as the exact sector of the victims is not explicitly stated, but the nature of the attacks strongly suggests these sectors."
+      "confidence_basis": "The description explicitly mentions hospitality clients and a restaurant chain as victims, which are clearly within the Consumer Discretionary sector."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.999
-        },
-        {
           "sector": "Financials",
           "confidence": 0.999
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.998
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Consumer Discretionary",
+          "confidence": 0.9,
+          "evidence": "Trustwave investigated 'two separate hospitality clients, and one restaurant chain', and the campaign is described as 'a new Carbanak gang attack methodology, focused on the hospitality industry.' Hotels and restaurants fall under Consumer Discretionary. The finance tags and the mention of past bank thefts describe the actor's history, not the victims of this campaign."
+        }
+      ],
+      "confidence_basis": "High confidence because the description names the victims of this campaign directly as hospitality firms and a restaurant chain, and states the campaign's focus. Lowered slightly because the event tags (circl:topic=finance, veris target=Finance) point to Financials, likely reflecting Carbanak's reputation rather than these victims."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Consumer Discretionary"
+        }
+      ],
+      "votes": {
+        "claude": "Consumer Discretionary",
+        "qwen": "Consumer Discretionary",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "5870f2f5-5744-4ded-a6f5-469c950d210f": {
     "title": "OSINT - 2016 Updates to Shifu Banking Trojan",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.85,
-          "evidence": "steals credentials for online banking websites"
+          "confidence": 0.981
         }
-      ],
-      "confidence_basis": "Banking trojan, victims are bank customers; inferred rather than stated.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "The Shifu Banking Trojan targets online banking websites, which are primarily used by financial institutions and consumers for financial transactions."
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.7,
-          "evidence": "The report mentions that Shifu incorporates techniques to evade detection on Microsoft Windows systems, which involves IT security aspects."
+          "confidence": 1,
+          "evidence": "The description focuses on banking trojans targeting online banking credentials, which are primarily handled by financial institutions."
         }
       ],
-      "confidence_basis": "The primary evidence for the Financials sector is the direct mention of online banking websites as the target. The Information Technology sector is supported by the discussion of evasion techniques targeting Windows systems."
+      "confidence_basis": "The primary focus of the threat intelligence is on stealing credentials for online banking websites, which are directly related to the financial sector."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Materials",
-          "confidence": 0.531
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.607
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.53
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.671
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.666
-        },
-        {
-          "sector": "Real Estate",
+          "sector": "Not sector-specific",
           "confidence": 0.791
         }
       ]
-    }
-  },
-  "58773a18-6384-4c59-8264-4400950d210f": {
-    "title": "OSINT - New Variant of Ploutus ATM Malware Observed in the Wild in Latin America",
+    },
     "claude": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "ATM malware, aimed at financial organisations"
+          "confidence": 0.95,
+          "evidence": "Shifu is a banking Trojan that steals credentials for online banking websites in Russia, the UK, Italy, and elsewhere; the tags point to finance (circl:topic=\"finance\", veris target \"Finance\")."
         }
       ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      "confidence_basis": "High confidence because the text names banking customers and online banking sites as the targets, and both event tags agree. It is not 1.0 because the infected hosts are general Windows users; the sector is inferred from the banks whose credentials are stolen."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Not sector-specific",
+        "laya_choice": "Financials"
+      }
+    }
+  },
+  "58773a18-6384-4c59-8264-4400950d210f": {
+    "title": "OSINT - New Variant of Ploutus ATM Malware Observed in the Wild in Latin America",
+    "laya_choice": {
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "confidence": 0.948
+        }
+      ]
     },
     "qwen": {
       "sectors": [
@@ -800,76 +589,51 @@
           "sector": "Financials",
           "confidence": 0.9,
           "evidence": "The malware targets ATMs and financial organizations, which are primarily in the financial services sector."
-        },
-        {
-          "sector": "Not sector-specific",
-          "confidence": 0.3,
-          "evidence": "While the threat is specific to financial organizations, the description does not explicitly mention any particular industry sector beyond finance."
         }
       ],
-      "confidence_basis": "The primary focus of the threat is on financial organizations, but the description does not provide enough information to confidently assign it to a specific non-financial sector."
+      "confidence_basis": "The description explicitly mentions that the malware targets ATMs and financial organizations, which are primarily in the financial services sector."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.986
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.971
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.985
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.98
-        },
-        {
           "sector": "Financials",
           "confidence": 0.997
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.995
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.987
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.984
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.992
         }
       ]
-    }
-  },
-  "588a7bc4-7a38-45c7-bc6f-215902de0b81": {
-    "title": "OSINT - Dridex Banking Trojan Returns, Leverages New UAC Bypass Method",
+    },
     "claude": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "campaign targeting UK financial institutions"
+          "confidence": 0.93,
+          "evidence": "Ploutus-D is ATM malware that empties ATMs (cash dispensing via money mules) and the blog is aimed at helping 'financial organizations' defend; CIRCL tag topic='finance'. ATM operators/banks in Latin America are the victims."
         }
       ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      "confidence_basis": "High confidence because the text explicitly describes ATM jackout attacks and names financial organizations as the defenders; ATMs map directly to Financials. Slight reduction since the malware targets ATM vendor platforms (Diebold/KAL software), which could be read as Information Technology, but the victims losing money are financial institutions."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
+    }
+  },
+  "588a7bc4-7a38-45c7-bc6f-215902de0b81": {
+    "title": "OSINT - Dridex Banking Trojan Returns, Leverages New UAC Bypass Method",
+    "laya_choice": {
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "confidence": 0.94
+        }
+      ]
     },
     "qwen": {
       "sectors": [
@@ -877,288 +641,207 @@
           "sector": "Financials",
           "confidence": 0.9,
           "evidence": "The Dridex banking Trojan targets financial institutions as evidenced by the description of its campaigns against UK financial institutions."
-        },
-        {
-          "sector": "Not sector-specific",
-          "confidence": 0.3,
-          "evidence": "While the primary targets are financial institutions, the malware could potentially affect other sectors as well, given its nature as a banking Trojan."
         }
       ],
-      "confidence_basis": "The primary evidence points strongly to the Financials sector due to the explicit mention of targeting financial institutions. However, the nature of the malware suggests it could impact other sectors as well, hence the lower confidence for the 'Not sector-specific' category."
+      "confidence_basis": "The description explicitly mentions UK financial institutions as targets of the Dridex campaign, strongly indicating the Financials sector."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.99
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.987
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.993
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.99
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.991
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.986
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.992
-        },
-        {
           "sector": "Information Technology",
           "confidence": 0.994
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.993
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.95,
+          "evidence": "Dridex is a financial banking Trojan, and the January 25, 2017 campaign explicitly 'targeted UK financial institutions'; the event also carries the tag circl:topic=\"finance\"."
+        }
+      ],
+      "confidence_basis": "High confidence: the text explicitly names financial institutions as the victims, which matches the malware's long-established banking-fraud purpose. The confidence is held just below 1 because the description does not list specific named banks."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Information Technology",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "58a0ae18-4554-4af8-a66b-459802de0b81": {
     "title": "OSINT - Attackers target dozens of global banks with new malware",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Financials",
-          "confidence": 0.95,
-          "evidence": "dozens of global banks, Polish financial regulator site used"
+          "sector": "Information Technology",
+          "confidence": 0.903
         }
-      ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "The attacks targeted banks and financial institutions, which are part of the Financials sector."
+          "confidence": 1,
+          "evidence": "The attacks targeted banks and financial institutions, which fall under the Financials sector."
         }
       ],
-      "confidence_basis": "The description explicitly mentions that the attacks targeted banks and financial institutions, which are clearly defined as part of the Financials sector in the GICS classification."
+      "confidence_basis": "The description explicitly mentions that the attacks targeted banks and financial institutions, which are categorized under the Financials sector in GICS."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.993
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.991
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.993
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.964
-        },
-        {
           "sector": "Financials",
           "confidence": 0.997
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.995
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.978
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.992
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.95,
+          "evidence": "Victims are global banks ('Attackers target dozens of global banks'); attack discovered by a bank in Poland; watering hole was the Polish financial regulator's website; tags include circl:topic=\"finance\" and veris target=\"Finance\"."
+        }
+      ],
+      "confidence_basis": "High confidence because the title, description, and tags all explicitly and consistently name banks and the finance sector as the targeted victims, with no competing sector indicated."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "58a883f4-a2f8-4901-9d5f-a16602de0b81": {
     "title": "OSINT - Demystifying targeted malware used against Polish banks",
+    "laya_choice": {
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "confidence": 0.773
+        }
+      ]
+    },
+    "qwen": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 1,
+          "evidence": "The attacks were on Polish banks and the impact was described in the context of financial institutions."
+        }
+      ],
+      "confidence_basis": "The description explicitly mentions attacks on banks, which fall under the Financials sector."
+    },
+    "laya": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.994
+        }
+      ]
+    },
     "claude": {
       "sectors": [
         {
           "sector": "Financials",
           "confidence": 0.95,
-          "evidence": "attacks on Polish banks"
+          "evidence": "The event describes targeted malware attacks on Polish banks, with affected institutions also in Mexico and Uruguay. It is tagged circl:topic=\"finance\" and attributed to Lazarus Group, which is known for attacks on financial institutions."
         }
       ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      "confidence_basis": "Confidence is high because the title and description both name banks as the victims and the finance topic tag agrees. Nothing in the text points to another sector."
     },
-    "qwen": {
+    "vote": {
       "sectors": [
         {
-          "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "The attacks targeted Polish banks, which fall under the Financials sector."
+          "sector": "Financials"
         }
       ],
-      "confidence_basis": "The description explicitly mentions that the attacks were on Polish banks, which are a clear example of Financials sector institutions."
-    },
-    "laya": {
-      "sectors": [
-        {
-          "sector": "Energy",
-          "confidence": 0.95
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.925
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.975
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.957
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.975
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.983
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.967
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.969
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.958
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.973
-        }
-      ]
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "598db7fd-47a8-45f8-9414-408b02de0b81": {
     "title": "OSINT - APT28 Targets Hospitality Sector, Presents Threat to Travelers",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.9,
-          "evidence": "campaign targeting the hospitality sector / hotels"
+          "sector": "Information Technology",
+          "confidence": 0.997
         }
-      ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Consumer Discretionary",
-          "confidence": 0.8,
-          "evidence": "The description mentions that the campaign targets the hospitality sector, which includes hotels, a key component of the travel and leisure industry."
+          "confidence": 0.9,
+          "evidence": "The description mentions that the campaign targeted the hospitality sector, which includes hotels, a key component of the travel and leisure industry."
         }
       ],
-      "confidence_basis": "The description explicitly states that the campaign targets the hospitality sector, which is a clear indicator of the Consumer Discretionary sector."
+      "confidence_basis": "The description explicitly states that the campaign targeted the hospitality sector, which is a clear indicator of the Consumer Discretionary sector."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.85
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.594
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.964
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.877
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.983
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.952
-        },
-        {
           "sector": "Information Technology",
           "confidence": 0.99
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.956
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.847
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.971
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Consumer Discretionary",
+          "confidence": 0.9,
+          "evidence": "The campaign targets the 'hospitality sector', specifically hotels throughout Europe and the Middle East; hotels fall under Consumer Discretionary"
+        }
+      ],
+      "confidence_basis": "High confidence because the text explicitly names the hospitality sector and hotels as targets. Slightly below 1 because the ultimate intended victims are travelers staying at the hotels, though the compromised organizations are the hotels themselves."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Consumer Discretionary"
+        }
+      ],
+      "votes": {
+        "claude": "Consumer Discretionary",
+        "qwen": "Consumer Discretionary",
+        "laya": "Information Technology",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "5997e84c-58b8-4652-a5cc-7d9602de0b81": {
     "title": "OSINT - EngineBox Malware Supports 10+ Brazilian Banks",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "steals credentials of 10+ Brazilian banks"
+          "confidence": 0.937
         }
-      ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
@@ -1168,75 +851,55 @@
           "evidence": "The malware targets at least 10 of the biggest Brazilian public and private banks and other financial institutions."
         }
       ],
-      "confidence_basis": "The description explicitly mentions that the malware targets financial institutions, which are primarily banks and other financial services companies."
+      "confidence_basis": "The description explicitly mentions that the malware targets financial institutions, which is the primary sector for banks and other financial services."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.99
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.991
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.994
-        },
-        {
           "sector": "Information Technology",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.993
-        },
-        {
-          "sector": "Real Estate",
           "confidence": 0.994
         }
       ]
-    }
-  },
-  "59a25cc4-e870-4bef-a7d1-48a802de0b81": {
-    "title": "OSINT - Ukrainian Financial Institutions Targeted by Wave of Malicious EPS File Attacks",
+    },
     "claude": {
       "sectors": [
         {
           "sector": "Financials",
           "confidence": 0.95,
-          "evidence": "attack against Ukrainian banks, warning from the Central Bank"
+          "evidence": "The banker malware steals credentials from at least 10 of the biggest Brazilian public and private banks and other financial institutions, and uses an HTTP proxy to intercept banking transactions."
         }
       ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      "confidence_basis": "The text names banks as the victims directly and more than once, so confidence is high. The browser, SSH and FTP credential theft is secondary and does not point to a different sector."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Information Technology",
+        "laya_choice": "Financials"
+      }
+    }
+  },
+  "59a25cc4-e870-4bef-a7d1-48a802de0b81": {
+    "title": "OSINT - Ukrainian Financial Institutions Targeted by Wave of Malicious EPS File Attacks",
+    "laya_choice": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.943
+        }
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
+          "confidence": 1,
           "evidence": "The attacks targeted banks in Ukraine and Russia, which fall under the Financials sector."
         }
       ],
@@ -1245,130 +908,102 @@
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.897
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.879
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.971
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.947
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.964
-        },
-        {
           "sector": "Financials",
           "confidence": 0.989
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.973
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.932
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.937
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.922
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.97,
+          "evidence": "The Ukrainian Central Bank warned of attacks against Ukrainian banks. Malicious EPS attachments were emailed to banks in Ukraine and Russia in waves on August 10 and 18, 2017. The event is also tagged circl:topic=\"finance\"."
+        }
+      ],
+      "confidence_basis": "Confidence is high because the text names banks as the victims several times and the finance topic tag agrees. It is not 1.0 only because of the passing mention of 'similar attack vectors in other countries' without naming the sectors involved."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Financials"
+      }
     }
   },
   "59afedbe-12f4-4585-9048-4b8b950d210f": {
     "title": "OSINT - Dragonfly: Western energy sector targeted by sophisticated attack group",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.85,
-          "evidence": "the energy sector in Europe and North America is being targeted"
+          "sector": "Information Technology",
+          "confidence": 0.974
         }
-      ],
-      "confidence_basis": "Text says 'energy sector' explicitly; could also mean electric utilities, so not 0.95.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Energy",
           "confidence": 1,
-          "evidence": "The description explicitly mentions that the energy sector in Europe and North America is being targeted by the Dragonfly group."
+          "evidence": "The description explicitly mentions that the energy sector in Europe and North America is being targeted by Dragonfly."
         }
       ],
-      "confidence_basis": "The text directly states that the energy sector is being targeted by the described cyber threat intelligence event."
+      "confidence_basis": "The text directly states that the energy sector is the target of the cyber threat intelligence event."
     },
     "laya": {
       "sectors": [
         {
           "sector": "Energy",
           "confidence": 0.994
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.808
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.646
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.884
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.787
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.96
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.507
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.84
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.871
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Energy",
+          "confidence": 0.8,
+          "evidence": "Title says 'Western energy sector targeted'; the description says 'The energy sector in Europe and North America is being targeted by a new wave of cyber attacks'; tag certsi:critical-sector=\"energy\"."
+        }
+      ],
+      "confidence_basis": "Both the text and the tags name the energy sector directly as the victim, so confidence is high. It is not higher because the Dragonfly 2.0 campaign largely went after electricity and power-grid operators, which GICS would place under Utilities. The text here only says 'energy sector' and never mentions electricity, so Energy is the better match to what is written."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Energy"
+        }
+      ],
+      "votes": {
+        "claude": "Energy",
+        "qwen": "Energy",
+        "laya": "Energy",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "59cd5d0e-8280-4acd-a27e-427302de0b81": {
     "title": "OSINT -  Banking Trojan Attempts To Steal Brazillion$",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "campaign focused on South American banks"
+          "sector": "Information Technology",
+          "confidence": 0.573
         }
-      ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
+          "confidence": 1,
           "evidence": "The campaign targeted various South American banks in an attempt to steal credentials from users."
         }
       ],
@@ -1377,128 +1012,96 @@
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.957
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.973
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.991
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.991
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.572
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.995
-        },
-        {
           "sector": "Information Technology",
           "confidence": 0.995
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.984
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.973
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.993
         }
       ]
-    }
-  },
-  "5a25117c-6260-44a1-91b4-489d02de0b81": {
-    "title": "OSINT - Gaffe Reveals Full List of Targets in Spear Phishing Attack Using Cobalt Strike Against Financial Institutions",
+    },
     "claude": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.95,
-          "evidence": "spear-phishing employees at financial institutions"
+          "confidence": 0.9,
+          "evidence": "Banking trojan campaign targeting various South American (Brazilian) banks to steal user banking credentials for illicit financial gain; tagged circl:topic=\"finance\"."
         }
       ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      "confidence_basis": "High confidence because the text explicitly names banks as the targeted institutions and the tag corroborates finance; slightly below 1.0 because the direct victims are everyday Brazilian users (bank customers) rather than the banks themselves."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Information Technology",
+        "laya_choice": "Information Technology"
+      }
+    }
+  },
+  "5a25117c-6260-44a1-91b4-489d02de0b81": {
+    "title": "OSINT - Gaffe Reveals Full List of Targets in Spear Phishing Attack Using Cobalt Strike Against Financial Institutions",
+    "laya_choice": {
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "confidence": 0.971
+        }
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
           "confidence": 0.9,
-          "evidence": "The description explicitly mentions that the spear-phishing campaign targeted financial institutions, mostly in Russia and Turkey."
+          "evidence": "The description explicitly mentions that the targets were financial institutions."
         }
       ],
-      "confidence_basis": "The description directly states the targets of the spear-phishing campaign, which are financial institutions."
+      "confidence_basis": "The text directly states that the spear-phishing campaign targeted financial institutions."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.517
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.822
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.722
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.727
-        },
-        {
           "sector": "Financials",
           "confidence": 0.982
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.897
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.951
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.949
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.883
         }
       ]
-    }
-  },
-  "5a39216d-e93c-4046-8ff5-bfd8950d210f": {
-    "title": "OSINT - Banking malware on Google Play targets Polish banks",
+    },
     "claude": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "banking trojans targeting Polish banks"
+          "confidence": 0.97,
+          "evidence": "Title says the spear-phishing campaign targeted 'Financial Institutions'; the description says the emails went to 'employees at various financial institutions, mostly in Russia and Turkey' using a lure about changes to 'SWIFT' terms; the event is also tagged circl:topic=\"finance\"."
         }
       ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      "confidence_basis": "Very high confidence because the text names the victims as financial institutions several times (title, description, the SWIFT banking lure, and the finance topic tag). The Cobalt group is also known for attacking banks. Nothing in the text points to any other sector."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
+    }
+  },
+  "5a39216d-e93c-4046-8ff5-bfd8950d210f": {
+    "title": "OSINT - Banking malware on Google Play targets Polish banks",
+    "laya_choice": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.944
+        }
+      ]
     },
     "qwen": {
       "sectors": [
@@ -1513,437 +1116,304 @@
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.848
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.77
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.971
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.998
-        },
-        {
           "sector": "Communication Services",
           "confidence": 0.999
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.947
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.988
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.95,
+          "evidence": "Banking Trojans distributed via Google Play explicitly 'targeting a number of Polish banks'; tagged as Banker malware family."
+        }
+      ],
+      "confidence_basis": "High confidence because the text directly names banks as the targets and the malware family is a banking Trojan. The lure apps (crypto price tracker, Instagram story saver) are only disguises, not the victim sector."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Communication Services",
+        "laya_choice": "Financials"
+      }
     }
   },
   "5a8ab58a-213c-409a-97af-4eb5950d210f": {
     "title": "OSINT - Zeus Panda Banking Trojan Targets Online Holiday Shoppers",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Financials",
-          "confidence": 0.7,
-          "evidence": "banking trojan stealing banking credentials"
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.75,
-          "evidence": "injects for retailers, travel sites, casinos"
+          "sector": "Information Technology",
+          "confidence": 0.927
         }
-      ],
-      "confidence_basis": "Two victim groups are named in the text; neither clearly dominates.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Consumer Discretionary",
-          "confidence": 0.8,
+          "confidence": 0.9,
           "evidence": "The description mentions online shopping sites for brick and mortar retailers like Zara, specialty online retailers, which are part of the Consumer Discretionary sector."
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.6,
-          "evidence": "The description mentions video streaming sites, which are part of the Information Technology sector."
         }
       ],
-      "confidence_basis": "The evidence provided directly links the targets of the Zeus Panda campaign to specific sectors, with higher confidence for more direct mentions."
+      "confidence_basis": "The primary focus of the threat is on online shopping and credit card information, which aligns strongly with Consumer Discretionary and Financials sectors."
     },
     "laya": {
       "sectors": [
         {
           "sector": "Energy",
           "confidence": 1.0
-        },
-        {
-          "sector": "Materials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Financials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 1.0
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Consumer Discretionary",
+          "confidence": 0.7,
+          "evidence": "The Zeus Panda campaigns shifted toward non-banking targets, with injects for online shopping sites of retailers like Zara, specialty online retailers, travel sites, and casinos, timed to exploit holiday shopping (Black Friday, Cyber Monday, Christmas)."
+        }
+      ],
+      "confidence_basis": "Moderately high: the text explicitly highlights retailers and holiday shopping as the new focus, and most named targets (retail, travel, casinos) are Consumer Discretionary. Confidence is reduced because the malware is a banking Trojan that traditionally targets Financials (banks, payment sites), and video streaming targets would fall under Communication Services."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Consumer Discretionary"
+        }
+      ],
+      "votes": {
+        "claude": "Consumer Discretionary",
+        "qwen": "Consumer Discretionary",
+        "laya": "Energy",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "5adeed17-3124-41c1-91b9-4a97950d210f": {
     "title": "OSINT - New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Health Care",
-          "confidence": 0.95,
-          "evidence": "targets the healthcare sector, providers, pharmaceuticals"
+          "sector": "Information Technology",
+          "confidence": 0.994
         }
-      ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Health Care",
           "confidence": 0.9,
-          "evidence": "The description explicitly mentions healthcare providers, pharmaceuticals, and equipment manufacturers that serve the healthcare industry as victims."
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.7,
-          "evidence": "The description mentions IT solution providers for healthcare, which are part of the Information Technology sector."
+          "evidence": "The description explicitly mentions that the Orangeworm attack group targets healthcare providers, pharmaceuticals, and IT solution providers for healthcare, which are all part of the Health Care sector."
         }
       ],
-      "confidence_basis": "The description clearly identifies healthcare and IT solution providers as victims, with high confidence for healthcare and moderate confidence for IT due to the indirect mention."
+      "confidence_basis": "The description directly states the healthcare sector as the primary target of the attack group."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.996
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.995
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.993
-        },
-        {
           "sector": "Health Care",
           "confidence": 0.997
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.992
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.994
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Health Care",
+          "confidence": 0.95,
+          "evidence": "Orangeworm targets 'large international corporations that operate within the healthcare sector'; known victims include healthcare providers, pharmaceuticals, and equipment manufacturers serving the healthcare industry."
+        }
+      ],
+      "confidence_basis": "The title and description both name healthcare as the primary target. Related-industry victims (IT providers, equipment manufacturers) were hit as part of a supply-chain approach to reach healthcare targets, so they don't change the main sector. The confidence is high but not 1.0 because of that secondary IT and manufacturing victimology."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Health Care"
+        }
+      ],
+      "votes": {
+        "claude": "Health Care",
+        "qwen": "Health Care",
+        "laya": "Health Care",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "5b63f5e4-bf24-4f46-8340-48fc02de0b81": {
     "title": "OSINT - Attacks on industrial enterprises using RMS and TeamViewer",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Industrials",
-          "confidence": 0.85,
-          "evidence": "tags Manufacturing/Construction/Logistic; \"industrial enterprises\""
-        },
-        {
-          "sector": "Energy",
-          "confidence": 0.75,
-          "evidence": "tags Oil/Energy"
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.6,
-          "evidence": "tag Mining"
+          "sector": "Information Technology",
+          "confidence": 0.944
         }
-      ],
-      "confidence_basis": "Tags list several sectors; the text says industrial companies in general.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Industrials",
           "confidence": 0.8,
-          "evidence": "The attacks target companies and organizations associated with industrial production."
-        },
-        {
-          "sector": "Energy",
-          "confidence": 0.6,
-          "evidence": "The attacks are targeting industrial companies, and some of them might be related to energy production."
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.4,
-          "evidence": "While not explicitly mentioned, some industrial companies might be involved in materials processing or manufacturing."
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.2,
-          "evidence": "Not directly related, but some industrial companies might produce consumer goods."
+          "evidence": "The attacks are targeting companies and organizations associated with industrial production, which falls under the Industrials sector."
         }
       ],
-      "confidence_basis": "The primary evidence points to Industrials and Energy sectors, with lower confidence in the other sectors due to the lack of direct mention but potential indirect relevance."
+      "confidence_basis": "The description explicitly mentions that the attacks are targeting industrial companies, which aligns with the Industrials sector."
     },
     "laya": {
       "sectors": [
         {
           "sector": "Energy",
           "confidence": 1.0
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.993
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.997
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Industrials",
+          "confidence": 0.75,
+          "evidence": "Phishing emails targeted 'primarily companies and organizations that are, in one way or another, associated with industrial production', mainly 'industrial companies located in Russia'. The title names the targets as 'industrial enterprises', and the tags include Manufacturing, Construction and Logistic, all of which fall under Industrials. The attackers wanted to steal money, but the victims themselves were industrial firms, not financial institutions."
+        }
+      ],
+      "confidence_basis": "The text repeatedly describes the victims as industrial and manufacturing companies, which fits Industrials, so confidence is moderately high. It stays below 0.85 for two reasons. First, the tags also list Oil, Energy and Mining, which would map to Energy and Materials, so the victims span several sectors. Second, the source's own analytic confidence is marked as moderate."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Industrials"
+        }
+      ],
+      "votes": {
+        "claude": "Industrials",
+        "qwen": "Industrials",
+        "laya": "Energy",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "5bb3b566-b054-436e-aabf-4bd902de0b81": {
     "title": "OSINT - CIG Circular 66  \u00e2\u20ac\u201c FASTCash  ATM Cash  Out Campaign",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Financials",
-          "confidence": 0.95,
-          "evidence": "targets banks' payment switch servers, ATM cash-out"
+          "sector": "Information Technology",
+          "confidence": 0.803
         }
-      ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "The campaign targets banks in Africa and Asia, which are part of the Financials sector."
+          "confidence": 1,
+          "evidence": "The campaign targets banks in Africa and Asia, which are primarily financial institutions."
         }
       ],
-      "confidence_basis": "The description explicitly mentions that the campaign targets banks, which are a key component of the Financials sector."
+      "confidence_basis": "The description explicitly mentions that the campaign targets banks, which fall under the Financials sector."
     },
     "laya": {
       "sectors": [
         {
           "sector": "Financials",
           "confidence": 0.846
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.537
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.515
         }
       ]
-    }
-  },
-  "5cf3787c-625c-4782-9f1a-da8f950d210f": {
-    "title": "OSINT -  10 years of virtual dynamite: A high-level retrospective of ATM malware",
+    },
     "claude": {
       "sectors": [
         {
           "sector": "Financials",
-          "confidence": 0.9,
-          "evidence": "ATM malware causing damage to banks and financial institutions"
+          "confidence": 0.97,
+          "evidence": "FASTCash targets banks in Africa and Asia, compromising payment switch application servers within banks to enable fraudulent ATM cash-out transactions."
         }
       ],
-      "confidence_basis": "The description names the victims directly, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      "confidence_basis": "The victims are named directly as banks, and the attack goes after banking payment infrastructure (payment switches and ATMs). Confidence is very high because the text states the sector outright."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Financials",
+        "laya_choice": "Information Technology"
+      }
+    }
+  },
+  "5cf3787c-625c-4782-9f1a-da8f950d210f": {
+    "title": "OSINT -  10 years of virtual dynamite: A high-level retrospective of ATM malware",
+    "laya_choice": {
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "confidence": 0.867
+        }
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Financials",
           "confidence": 0.9,
-          "evidence": "The description focuses on ATM malware, which directly targets financial institutions such as banks and ATMs."
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.7,
-          "evidence": "The text mentions malware and its analysis, which involves IT services and security."
+          "evidence": "The description focuses on ATM malware which targets ATMs, used by banks and financial institutions."
         }
       ],
-      "confidence_basis": "The primary focus of the description is on ATM malware, which is most directly related to the Financials sector. The involvement of malware analysis and its execution on ATMs points to the Information Technology sector as well."
+      "confidence_basis": "The text explicitly mentions ATM malware targeting financial services and institutions."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.822
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.759
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.836
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.934
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.691
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.52
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.923
-        },
-        {
           "sector": "Information Technology",
           "confidence": 0.96
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.954
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.933
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.931
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.95,
+          "evidence": "The event is about ATM malware (Skimer, GreenDispenser, Tyupkin) that makes ATMs dispense cash. The text says it causes 'significant damage to targeted banks, financial institutions and end users.' The tags also point to finance: financial-fraud 'ATM Black Box Attack' and veris asset 'T - ATM'."
+        }
+      ],
+      "confidence_basis": "High confidence because the text explicitly names banks and financial institutions as the targets, and ATMs belong to the Financials sector under the given definitions. It is not set to 1.0 because this is a broad retrospective rather than a report on one specific victim."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Financials"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Financials",
+        "laya": "Information Technology",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "704d14e0-3a68-46a2-9b20-88a781463250": {
     "title": "[TLP:WHITE] Joint CSA: North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Health Care",
-          "confidence": 0.95,
-          "evidence": "title and tag target:healthcare"
+          "sector": "Information Technology",
+          "confidence": 0.945
         }
-      ],
-      "confidence_basis": "Analyst sector tags and the text say the same thing, so confidence is high.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
@@ -1953,264 +1423,142 @@
           "evidence": "target:healthcare"
         }
       ],
-      "confidence_basis": "The description explicitly mentions that the ransomware targets the healthcare and public health sector, providing direct evidence for the Health Care sector classification."
+      "confidence_basis": "The description explicitly mentions that the ransomware targets the healthcare and public health sector."
     },
     "laya": {
       "sectors": [
         {
           "sector": "Energy",
           "confidence": 1.0
-        },
-        {
-          "sector": "Materials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Financials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 1.0
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Health Care",
+          "confidence": 0.95,
+          "evidence": "Title states Maui ransomware is used 'to Target the Healthcare and Public Health Sector'; tag 'target:healthcare' confirms the victim focus."
+        }
+      ],
+      "confidence_basis": "High confidence because both the title and an explicit target tag name the healthcare sector directly; slightly below 1 since 'Public Health' could include government entities, but healthcare is clearly the main victim sector."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Health Care"
+        }
+      ],
+      "votes": {
+        "claude": "Health Care",
+        "qwen": "Health Care",
+        "laya": "Energy",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "b2a90426-2dc0-4022-b51e-8be190ffb7e5": {
     "title": "Operation Cobalt Whisper: Threat Actor Targets Multiple Industries Across Hong Kong and Pakistan.",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Industrials",
-          "confidence": 0.7,
-          "evidence": "tags Civil Aviation, Defense, engineering"
-        },
-        {
-          "sector": "Energy",
-          "confidence": 0.6,
-          "evidence": "tag Energy"
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.6,
-          "evidence": "tag Electric"
-        },
-        {
           "sector": "Information Technology",
-          "confidence": 0.5,
-          "evidence": "tag IT - Security"
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.5,
-          "evidence": "tag Pharmacy"
+          "confidence": 0.96
         }
-      ],
-      "confidence_basis": "Only a long list of sector tags with no description, so each sector gets moderate confidence.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
           "sector": "Energy",
           "confidence": 0.8,
-          "evidence": "Operation Cobalt Whisper targets multiple industries, including energy."
-        },
-        {
-          "sector": "Civil Aviation",
-          "confidence": 0.6,
-          "evidence": "Civil Aviation is mentioned as one of the targeted sectors."
-        },
-        {
-          "sector": "Defense",
-          "confidence": 0.7,
-          "evidence": "Defense is listed as a targeted sector."
-        },
-        {
-          "sector": "Multi-sector",
-          "confidence": 1,
-          "evidence": "The tag 'misp-galaxy:sector="
+          "evidence": "Operation Cobalt Whisper targets multiple industries, and 'Energy' is mentioned as one of the sectors."
         }
       ],
-      "confidence_basis": "The sectors are directly mentioned or strongly implied in the tags and description, with varying degrees of specificity."
+      "confidence_basis": "The description mentions 'Energy' as one of the sectors targeted, but also indicates that the operation targets multiple industries, making it difficult to assign a single main sector with high confidence."
     },
     "laya": {
       "sectors": [
         {
-          "sector": "Energy",
-          "confidence": 0.995
-        },
-        {
-          "sector": "Materials",
-          "confidence": 0.994
-        },
-        {
           "sector": "Industrials",
           "confidence": 1.0
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.994
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 0.984
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.989
-        },
-        {
-          "sector": "Financials",
-          "confidence": 0.998
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 0.999
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 0.997
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 0.997
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Industrials",
+          "confidence": 0.35,
+          "evidence": "The title says the actor 'Targets Multiple Industries'. The sector tags are Defense, Civil Aviation and engineering (all Industrials), plus Electric, Energy, Academia - University, Environment, IT - Security, Pharmacy and Multi-sector. Industrials has the most tags (3), ahead of any other single GICS sector."
+        }
+      ],
+      "confidence_basis": "Confidence is low because the description is empty and the tags explicitly mark the campaign as multi-sector. The victims span Industrials (defense, aviation, engineering), Energy and Utilities (energy, electric), Health Care (pharmacy), IT (security) and non-GICS academia. Industrials was chosen only because it has the most tags, not because the text shows it as the primary focus."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Industrials"
+        }
+      ],
+      "votes": {
+        "claude": "Industrials",
+        "qwen": "Energy",
+        "laya": "Industrials",
+        "laya_choice": "Information Technology"
+      }
     }
   },
   "f88ee265-c1d6-4642-824a-986dae80c7b6": {
     "title": "PFCloud \u00b7 Bulletproof Hosting \u00b7 Datacarry Ransomware",
-    "claude": {
+    "laya_choice": {
       "sectors": [
         {
-          "sector": "Financials",
-          "confidence": 0.6,
-          "evidence": "tags Finance, Insurance"
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 0.6,
-          "evidence": "tags Health, Pharmacy"
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 0.5,
-          "evidence": "tags Sport, Tourism"
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 0.5,
-          "evidence": "tag Civil Aviation"
-        },
-        {
           "sector": "Information Technology",
-          "confidence": 0.5,
-          "evidence": "tag Technology"
+          "confidence": 0.868
         }
-      ],
-      "confidence_basis": "Only a long list of sector tags with no description, so each sector gets moderate confidence.",
-      "labelled_by": "Claude Opus 5.5 in Claude Code chat"
+      ]
     },
     "qwen": {
       "sectors": [
         {
-          "sector": "Health",
-          "confidence": 0.8,
-          "evidence": "The ransomware targets sectors that often have critical data and are less likely to be able to afford downtime, such as healthcare."
-        },
-        {
-          "sector": "Finance",
+          "sector": "Information Technology",
           "confidence": 0.7,
-          "evidence": "Financial institutions are also common targets for ransomware due to the critical nature of their data."
-        },
-        {
-          "sector": "Technology",
-          "confidence": 0.6,
-          "evidence": "The use of advanced techniques like PowerShell and Remote Desktop Protocol suggests a target that might be in the technology sector, which often has more complex IT infrastructure."
+          "evidence": "The ransomware targets a broad range of sectors, but the context of hosting and cloud services suggests IT infrastructure."
         }
       ],
-      "confidence_basis": "The ransomware targets sectors that are critical for their data and operations, which often include healthcare, finance, and technology. The evidence for these sectors is based on the typical targets for ransomware attacks and the nature of the techniques used."
+      "confidence_basis": "The description mentions hosting services, which are typically part of the IT sector."
     },
     "laya": {
       "sectors": [
         {
           "sector": "Energy",
           "confidence": 1.0
-        },
-        {
-          "sector": "Materials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Industrials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Consumer Discretionary",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Consumer Staples",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Health Care",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Financials",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Information Technology",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Communication Services",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Utilities",
-          "confidence": 1.0
-        },
-        {
-          "sector": "Real Estate",
-          "confidence": 1.0
         }
       ]
+    },
+    "claude": {
+      "sectors": [
+        {
+          "sector": "Financials",
+          "confidence": 0.25,
+          "evidence": "The Datacarry ransomware victims span many sectors. The tags list Civil Aviation, Education, Finance, Health, Insurance, Legal, Pharmacy, Sport, Technology and Tourism. Finance and Insurance both map to Financials, which ties with Health Care (Health and Pharmacy) for the most tags. The other tags each map to a different sector: Industrials, Information Technology, Consumer Discretionary, or none."
+        }
+      ],
+      "confidence_basis": "Confidence is low because the targeting is broad and opportunistic. There is no description text, and the sector tags spread across about six GICS sectors. Financials and Health Care each have two tags, so Financials was picked as a near tie-break. The confidence reflects that the main sector is weakly determined."
+    },
+    "vote": {
+      "sectors": [
+        {
+          "sector": "Information Technology"
+        }
+      ],
+      "votes": {
+        "claude": "Financials",
+        "qwen": "Information Technology",
+        "laya": "Energy",
+        "laya_choice": "Information Technology"
+      }
     }
   }
 }
