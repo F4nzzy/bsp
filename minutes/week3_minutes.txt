@@ -1,0 +1,25 @@
+1. Progress since last meeting
+	• made the qwen, laya and claude classifications
+	• got a results table
+
+2. Discussion
+	• discussed why laya was not working well
+	• maybe it needs training or higher threshold
+	• only ask the ai for the main classification
+	• once you have only one category (above 90%) then we can take claude as the ground truth 
+	• take event and then return the companies affected by this event
+    
+3. What to do for next meeting
+	• try different thresholds
+	• ask laya using "choice" mode
+	• calibrate laya
+	• change the prompt to only take the main category
+	• voting between models
+	• make a pipeline. classify with all the ai's
+	• web interface?
+
+
+
+
+
+next meeting: Thursday 9am 

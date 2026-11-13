@@ -3,6 +3,8 @@ from pathlib import Path
 
 SAMPLE = Path(__file__).parent / "sample"
 
+        # Only take the main category ###################################
+
 PROMPT = """You classify cyber threat intelligence events by the industry sector of the victims they target.
 GICS sectors (with examples):
 - Energy: oil, gas, coal, petroleum
