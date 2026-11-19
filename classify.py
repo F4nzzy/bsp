@@ -1,4 +1,3 @@
-"""python classify.py qwen/laya"""
 import json, re, subprocess, sys
 from functools import cache
 from pathlib import Path
@@ -24,7 +23,7 @@ def laya(text):
     return {"sectors": [{"sector": best if a[best]["noul"] >= 0.8 else "Not sector-specific", "confidence": round(a[best]["noul"], 3)}]}
 
 
-def laya_choice(text):  # one question, laya picks one of the sectors
+def laya_choice(text):
     criteria = dict(re.findall(r"^- ([^:]+): (.*)$", pipeline.PROMPT, re.M)) | {"Not sector-specific": "no particular industry"}
     qs = {"sector": {"type": "choice", "instructions": "Which industry sector does this threat target?", "criteria": criteria}}
     a = router().predict(text, qs, model="multilingual", max_len=4096)["answers"]["sector"]
@@ -49,7 +48,7 @@ for path in sorted((HERE / "events").glob("*.json")):
     row = results.setdefault(path.stem, {"title": text.splitlines()[0][7:]})
     for m in (m for m in sys.argv[1:] if m not in row):
         try:
-            answer = MODELS[m](text)  # keep only the one main sector (qwen sometimes adds junk entries)
+            answer = MODELS[m](text)
             answer["sectors"] = [max((s for s in answer["sectors"] if isinstance(s, dict) and "sector" in s),
                                      key=lambda s: s.get("confidence", 0))]
             row[m] = answer

@@ -1,0 +1,20 @@
+1. Progress since last meeting
+	• implemented the choice "mode" for laya
+	• modified the prompt to only give one sector
+	• created voting
+
+2. Discussion
+	• start thinking about how to create the profile of a company
+	• look at profiles of people in companies (look for software used)        opendata.gov.fr
+
+    
+3. What to do for next meeting
+	• continue the rest (MCP server, very basic webpage) 
+	• list some info for the company
+	• look into places to find company profiles
+ 
+
+
+
+
+next meeting: Thursday 9am 

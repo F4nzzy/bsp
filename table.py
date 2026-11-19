@@ -1,4 +1,3 @@
-"""Compare models with manual labels (and with Claude). First run creates manual_labels.csv to fill in."""
 import csv, html, json
 from pathlib import Path
 
@@ -18,7 +17,7 @@ models = [m for m in ("manual", "qwen", "claude", "laya", "laya_choice", "vote")
 get = lambda r, m: {s["sector"] for s in r[m]["sectors"]} - {"Not sector-specific"}
 
 
-def stats(m, ref):  # how well model m matches reference ref, on events that have both
+def stats(m, ref):  
     pairs = [(get(r, m), get(r, ref)) for r in results.values() if m in r and ref in r]
     tp, pred, gold = (sum(len(x) for x in xs) for xs in zip(*[(p & g, p, g) for p, g in pairs]))
     return [f"{m} vs {ref}", len(pairs), f"{sum(p == g for p, g in pairs) / len(pairs):.0%}",
