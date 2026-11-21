@@ -28,15 +28,19 @@ def shrink(event):
     return f"Title: {e['info']}\nTags: {tags}\nDescription: {' '.join(texts)}"[:3000]
 
 
-def classify(text):
+def classify(text, options={"temperature": 0}):
     r = requests.post("http://localhost:11434/api/chat", json={
         "model": "qwen2.5:7b",
         "messages": [{"role": "system", "content": PROMPT}, {"role": "user", "content": text}],
         "format": "json",
-        "options": {"temperature": 0},
+        "options": options,
         "stream": False,
-    })
-    return json.loads(r.json()["message"]["content"])
+    }).json()
+    if "error" in r and "repeat_penalty" not in options:  # Qwen sometimes gets stuck repeating itself
+        return classify(text, {"temperature": 0, "repeat_penalty": 1.2})
+    if "error" in r:
+        raise RuntimeError(r["error"])
+    return json.loads(r["message"]["content"])
 
 
 if __name__ == "__main__":
