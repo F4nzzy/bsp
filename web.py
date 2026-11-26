@@ -1,3 +1,12 @@
+""" run:
+ollama serve
+python web.py
+Other ways to use the same pipeline:
+    python classify.py qwen laya laya_choice claude   
+    python vote.py                                     
+    python table.py              
+"""
+
 import asyncio, html, json, sys, threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
@@ -16,7 +25,6 @@ table{{border-collapse:collapse;margin-top:1em}} td,th{{border:1px solid #ccc;pa
 <textarea name="event" placeholder="...or paste a MISP event JSON here">{event}</textarea>
 <p><button>Classify</button></p></form>{result}"""
 
-# keep one MCP connection open in the background, so laya only loads once
 loop, client, ready = asyncio.new_event_loop(), None, threading.Event()
 
 

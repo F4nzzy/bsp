@@ -1,0 +1,20 @@
+1. Progress since last meeting
+	• made an MCP server
+	• made a very simple web page
+
+2. Discussion
+	• need to make it more reproducible (config file, api keys) 
+	• maybe make an MCP server to search the web for the company in the profile
+    
+3. What to do for next meeting
+	• profile on the page
+	• upload a bunch of JSON files and return which ones match the profile 
+	• MCP server to search the web for the company in the profile / ask LLM for company data
+	• allow people to choose the models they want (enter their API key etc) 
+	• Make a config file where people can edit the parameters. (AI model, feed type (JSON or something else))
+ 
+
+
+
+
+next meeting: TBC
