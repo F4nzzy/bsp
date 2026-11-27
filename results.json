@@ -48,9 +48,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "10a94632-a0a1-4062-a3a5-95fe321ae045": {
@@ -100,9 +100,9 @@
       "votes": {
         "claude": "Consumer Discretionary",
         "qwen": "Consumer Discretionary",
-        "laya": "Energy",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Energy"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "1cccd5d8-5d52-4610-b8b7-7bbebd0d6d7b": {
@@ -152,9 +152,9 @@
       "votes": {
         "claude": "Energy",
         "qwen": "Energy",
-        "laya": "Not sector-specific",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Not sector-specific"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "56e27748-1864-476a-9c1c-4d10950d210f": {
@@ -204,9 +204,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "571de51c-4f04-491f-b34a-4567950d210f": {
@@ -256,9 +256,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "5743f37c-c11c-426d-843b-4d83950d210f": {
@@ -308,9 +308,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "57721a0d-8c48-47a5-86d4-458c950d210f": {
@@ -360,9 +360,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "57c405cd-ab54-47b8-9eff-7a52950d210f": {
@@ -412,9 +412,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Information Technology",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Information Technology"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "57fddaac-da34-43f7-8844-4430950d210f": {
@@ -464,9 +464,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "582c134f-c358-455c-935e-4598950d210f": {
@@ -516,9 +516,9 @@
       "votes": {
         "claude": "Consumer Discretionary",
         "qwen": "Consumer Discretionary",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "5870f2f5-5744-4ded-a6f5-469c950d210f": {
@@ -568,9 +568,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Not sector-specific",
-        "laya_choice": "Financials"
-      }
+        "laya": "Not sector-specific"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "58773a18-6384-4c59-8264-4400950d210f": {
@@ -620,9 +620,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "588a7bc4-7a38-45c7-bc6f-215902de0b81": {
@@ -672,9 +672,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Information Technology",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Information Technology"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "58a0ae18-4554-4af8-a66b-459802de0b81": {
@@ -724,9 +724,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "58a883f4-a2f8-4901-9d5f-a16602de0b81": {
@@ -776,9 +776,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "598db7fd-47a8-45f8-9414-408b02de0b81": {
@@ -828,9 +828,9 @@
       "votes": {
         "claude": "Consumer Discretionary",
         "qwen": "Consumer Discretionary",
-        "laya": "Information Technology",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Information Technology"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "5997e84c-58b8-4652-a5cc-7d9602de0b81": {
@@ -880,9 +880,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Information Technology",
-        "laya_choice": "Financials"
-      }
+        "laya": "Information Technology"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "59a25cc4-e870-4bef-a7d1-48a802de0b81": {
@@ -932,9 +932,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Financials"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "59afedbe-12f4-4585-9048-4b8b950d210f": {
@@ -984,9 +984,9 @@
       "votes": {
         "claude": "Energy",
         "qwen": "Energy",
-        "laya": "Energy",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Energy"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "59cd5d0e-8280-4acd-a27e-427302de0b81": {
@@ -1036,9 +1036,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Information Technology",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Information Technology"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "5a25117c-6260-44a1-91b4-489d02de0b81": {
@@ -1088,9 +1088,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "5a39216d-e93c-4046-8ff5-bfd8950d210f": {
@@ -1140,9 +1140,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Communication Services",
-        "laya_choice": "Financials"
-      }
+        "laya": "Communication Services"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "5a8ab58a-213c-409a-97af-4eb5950d210f": {
@@ -1192,9 +1192,9 @@
       "votes": {
         "claude": "Consumer Discretionary",
         "qwen": "Consumer Discretionary",
-        "laya": "Energy",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Energy"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "5adeed17-3124-41c1-91b9-4a97950d210f": {
@@ -1244,9 +1244,9 @@
       "votes": {
         "claude": "Health Care",
         "qwen": "Health Care",
-        "laya": "Health Care",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Health Care"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "5b63f5e4-bf24-4f46-8340-48fc02de0b81": {
@@ -1296,9 +1296,9 @@
       "votes": {
         "claude": "Industrials",
         "qwen": "Industrials",
-        "laya": "Energy",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Energy"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "5bb3b566-b054-436e-aabf-4bd902de0b81": {
@@ -1348,9 +1348,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Financials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Financials"
+      },
+      "agreement": "3 of 3 models agree"
     }
   },
   "5cf3787c-625c-4782-9f1a-da8f950d210f": {
@@ -1400,9 +1400,9 @@
       "votes": {
         "claude": "Financials",
         "qwen": "Financials",
-        "laya": "Information Technology",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Information Technology"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "704d14e0-3a68-46a2-9b20-88a781463250": {
@@ -1452,9 +1452,9 @@
       "votes": {
         "claude": "Health Care",
         "qwen": "Health Care",
-        "laya": "Energy",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Energy"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "b2a90426-2dc0-4022-b51e-8be190ffb7e5": {
@@ -1504,9 +1504,9 @@
       "votes": {
         "claude": "Industrials",
         "qwen": "Energy",
-        "laya": "Industrials",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Industrials"
+      },
+      "agreement": "2 of 3 models agree"
     }
   },
   "f88ee265-c1d6-4642-824a-986dae80c7b6": {
@@ -1550,15 +1550,15 @@
     "vote": {
       "sectors": [
         {
-          "sector": "Information Technology"
+          "sector": "Financials"
         }
       ],
       "votes": {
         "claude": "Financials",
         "qwen": "Information Technology",
-        "laya": "Energy",
-        "laya_choice": "Information Technology"
-      }
+        "laya": "Energy"
+      },
+      "agreement": "1 of 3 models agree - check by hand"
     }
   }
 }

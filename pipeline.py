@@ -1,7 +1,9 @@
-import requests, json
+import configparser, json, requests
 from pathlib import Path
 
 SAMPLE = Path(__file__).parent / "week2_sample"
+CONFIG = configparser.ConfigParser(inline_comment_prefixes=("#",)) 
+CONFIG.read(Path(__file__).parent / "config.cfg", encoding="utf-8")
 
 PROMPT = """You classify cyber threat intelligence events by the industry sector of the victims they target.
 GICS sectors (with examples):
@@ -28,14 +30,24 @@ def shrink(event):
     return f"Title: {e['info']}\nTags: {tags}\nDescription: {' '.join(texts)}"[:3000]
 
 
+class SetupError(RuntimeError):
+    """A model is not installed or set up; retrying will not help."""
+
+
 def classify(text, options={"temperature": 0}):
-    r = requests.post("http://localhost:11434/api/chat", json={
-        "model": "qwen2.5:7b",
-        "messages": [{"role": "system", "content": PROMPT}, {"role": "user", "content": text}],
-        "format": "json",
-        "options": options,
-        "stream": False,
-    }).json()
+    model = CONFIG["qwen"]["model"]
+    try:
+        r = requests.post(CONFIG["qwen"]["url"], json={
+            "model": model,
+            "messages": [{"role": "system", "content": PROMPT}, {"role": "user", "content": text}],
+            "format": "json",
+            "options": options,
+            "stream": False,
+        }, timeout=120).json()  # never wait forever (e.g. Ollama half started)
+    except requests.ConnectionError:
+        raise SetupError("Ollama is not running. Install it from https://ollama.com and start it (ollama serve)")
+    if "error" in r and "not found" in r["error"]:
+        raise SetupError(f"Ollama does not have the model {model}. Run: ollama pull {model}")
     if "error" in r and "repeat_penalty" not in options:  # Qwen sometimes gets stuck repeating itself
         return classify(text, {"temperature": 0, "repeat_penalty": 1.2})
     if "error" in r:

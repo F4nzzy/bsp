@@ -1,0 +1,7 @@
+# Python packages for the pipeline: pip install -r requirements.txt
+# (Ollama and the Qwen model are not Python packages, see README.md)
+requests>=2.32
+mcp>=2.0.0rc1
+laya>=0.4.27
+anthropic>=2.14
+openai>=3.55
